@@ -7,8 +7,6 @@ input[type="checkbox"]{
 .check{
     position: absolute;
     display: block;
-    width: 120px;
-    height: 40px;
     background-color: #092c3e;
     cursor: pointer;
     border-radius: 20px;
@@ -359,6 +357,330 @@ transition-delay: 0.1ms;
     background-color: #4187f6; 
 }
 
+@media screen and (min-width:768px) {
+    
+    .switcher{
+        top:15% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 26.7% !important;
+    }
+
+    .check{
+        width: 80px;
+        height: 40px;
+    }
+    
+    .nav-item{
+        padding:8px  8px !important;
+    }
+
+    .navbar-p{
+        font-size: 0.8em !important;
+        font-weight: 500;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    
+    .switcher{
+        top:15% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 27.5% !important;
+    }
+
+    .check{
+        width: 80px;
+        height: 40px;
+    }
+    
+    .nav-item{
+        padding:8px  10px !important;
+    }
+
+    .navbar-p{
+        font-size: 0.8em !important;
+        font-weight: 500;
+    }
+}
+
+
+
+@media screen and (min-width:850px) {
+    
+    .switcher{
+        top:15% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 28.5% !important;
+    }
+}
+
+@media screen and (min-width:900px) {
+    
+    .switcher{
+        top:15% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 29.3% !important;
+    }
+
+    .navbar-p{
+        font-size: 0.9em !important;
+        font-weight: 500;
+    }
+
+    .check{
+        width: 80px;
+        height: 40px;
+    }
+
+    .nav-item{
+        padding:8px  20px !important;
+    }
+}
+
+@media screen and (min-width:950px) {
+    
+    .switcher{
+        top:14% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 30% !important;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    
+    .switcher{
+        top:14% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 30.8% !important;
+    }
+
+    .navbar-p{
+        font-size: 1.1em !important;
+        font-weight: 500;
+    }
+
+    .check{
+        width: 90px;
+        height: 40px;
+    }
+
+    .nav-item{
+        padding:8px  20px !important;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    
+    .switcher{
+        top:14% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 32% !important;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    
+    .switcher{
+        top:13.5% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 32.4% !important;
+    }
+
+    .navbar-p{
+        font-size: 1.1em !important;
+        font-weight: 500;
+    }
+
+    .check{
+        width: 100px;
+        height: 40px;
+    }
+
+    .nav-item{
+        padding:8px  20px !important;
+    }
+
+}
+
+@media screen and (min-width:1150px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 33.1% !important;
+    }
+
+    .nav-item{
+        padding: 8px 48px !important;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    .switcher{
+        top:13% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 33.6% !important;
+    }
+
+    .navbar-p{
+        font-size: 1.1em !important;
+        font-weight: 500;
+    }
+
+    .check{
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    
+    .switcher{
+        top:13% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 34% !important;
+    }
+
+    .navbar-p{
+        font-size: 1.3em !important;
+        font-weight: 500;
+    }
+
+    .check{
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    
+    .switcher{
+        top:13% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 34.5% !important;
+    }
+}
+
+@media screen and (min-width:1350px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 35% !important;
+    }
+
+    .check{
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 35.45% !important;
+    }
+}
+
+@media screen and (min-width:1450px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 35.90% !important;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 36.35% !important;
+    }
+
+    .navbar-p{
+        font-size: 1.7em !important;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width:1550px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 36.6% !important;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 37% !important;
+    }
+}
+
 @media screen and (min-width:1650px) {
     
     .switcher{
@@ -366,6 +688,9 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .top-circle{
+        margin-left: 37.25% !important;
+    }
 }
 
 @media screen and (min-width:1700px) {
@@ -373,6 +698,10 @@ transition-delay: 0.1ms;
     .switcher{
         top:11.5% !important; 
         left:2% !important;
+    }
+
+    .top-circle{
+        margin-left: 37.7% !important;
     }
 
 }
@@ -384,6 +713,9 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .top-circle{
+        margin-left: 38% !important;
+    }
 }
 
 @media screen and (min-width:1800px) {
@@ -393,6 +725,9 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .top-circle{
+        margin-left: 38.3% !important;
+    }
 }
 
 @media screen and (min-width:1850px) {
@@ -402,6 +737,9 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .top-circle{
+        margin-left: 38.6% !important;
+    }
 }
 
 @media screen and (min-width:1900px) {
@@ -411,10 +749,14 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .top-circle{
+        margin-left: 38.9% !important;
+    }
+
 }
 
 @media screen and (min-width:1950px) {
-    
+
     .switcher{
         top:10.7% !important; 
         left:2% !important;
@@ -425,10 +767,13 @@ transition-delay: 0.1ms;
 @media screen and (min-width:1920px) {
     
     .top-circle{
-        margin-left: 39% !important;
+        margin-left: 39.1% !important;
     }
 
-
+    .navbar-p{
+        font-size: 1.5em !important;
+        font-weight: 500;
+    }
 
 }
 
@@ -443,7 +788,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2000px) {
     
     .top-circle{
-        margin-left: 39.5% !important;
+        margin-left: 39.3% !important;
     }
 
     .switcher{
@@ -451,12 +796,17 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .navbar-p{
+        font-size: 1.7em !important;
+        font-weight: 500;
+    }
+
 }
 
 @media screen and (min-width:2050px) {
     
     .top-circle{
-        margin-left: 39.7% !important;
+        margin-left: 39.6% !important;
     }
 
     .switcher{
@@ -560,7 +910,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2450px) {
     
     .top-circle{
-        margin-left: 41.3% !important;
+        margin-left: 41.2% !important;
     }
 
     .switcher{
@@ -573,7 +923,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2500px) {
     
     .top-circle{
-        margin-left: 41.5% !important;
+        margin-left: 41.3% !important;
     }
 
     .switcher{
@@ -586,7 +936,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2550px) {
     
     .top-circle{
-        margin-left: 41.7% !important;
+        margin-left: 41.5% !important;
     }
 
     .switcher{
@@ -599,7 +949,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2600px) {
     
     .top-circle{
-        margin-left: 41.9% !important;
+        margin-left: 41.5% !important;
     }
 
     .switcher{
@@ -607,12 +957,17 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+    .navbar-p{
+        font-size: 2em !important;
+        font-weight: 500;
+    }
+
 }
 
 @media screen and (min-width:2650px) {
     
     .top-circle{
-        margin-left: 41.95% !important;
+        margin-left: 41.7% !important;
     }
 
     .switcher{
@@ -625,7 +980,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2700px) {
     
     .top-circle{
-        margin-left: 42.0% !important;
+        margin-left: 41.85% !important;
     }
 
     .switcher{
@@ -633,12 +988,14 @@ transition-delay: 0.1ms;
         left:2% !important;
     }
 
+
+
 }
 
 @media screen and (min-width:2750px) {
     
     .top-circle{
-        margin-left: 42.17% !important;
+        margin-left: 42% !important;
     }
 
     .switcher{
@@ -651,7 +1008,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2800px) {
     
     .top-circle{
-        margin-left: 42.2% !important;
+        margin-left: 42% !important;
     }
 
     .switcher{
@@ -664,7 +1021,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2850px) {
     
     .top-circle{
-        margin-left: 42.35% !important;
+        margin-left: 42.20% !important;
     }
 
     .switcher{
@@ -677,7 +1034,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2900px) {
     
     .top-circle{
-        margin-left: 42.5% !important;
+        margin-left: 42.4% !important;
     }
 
     .switcher{
@@ -703,11 +1060,11 @@ transition-delay: 0.1ms;
 @media screen and (min-width:3000px) {
     
     .top-circle{
-        margin-left: 42.75% !important;
+        margin-left: 42.55% !important;
     }
 
     .switcher{
-        top:7.8% !important; 
+        top:8.7% !important; 
         left:2% !important;
     }
 
