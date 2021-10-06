@@ -8,51 +8,290 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/stlye.css">
 </head>
-<body>
+<body id="body" class="position-relative">
+
     <!-- Navbar-MD kezdete -->
 
     <nav class="navbar d-md-block d-none navbar-expand-md navbar-dark bg-white py-0">
         <div class="container-fluid ">
           
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div class="navbar-nav d-flex mx-auto">
-              <a class="nav-link py-0 ms-2" id="circle" href="#"> <img src="IMG/top-circle.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex mx-auto">
+
+                <a class="nav-link py-0 me-4 pe-3" id="circle" href="#"> <img src="IMG/Navbar-1-Karinthy/top-circle-karinthy.png" alt="Karinthy Frigyes képe, főoldalra vezető hivatkozás"></a>
+              </div>
             </div>
-          </div>
         </div>
         
       </nav>
 
-    <nav class="navbar d-md-block d-none navbar-expand-md navbar-dark bg-black py-0">
-        <div class="container-fluid ">
+    <nav id="navbar1" class="navbar d-md-block d-none navbar-expand-md py-0 bg-primary navbar-dark">
+      <div class="container-fluid ">
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex mx-auto">
-              <a class="nav-link active" aria-current="page" href="#"><h2>Home</h2></a>
-              <a class="nav-link " href="#"><h2>Features</h2></a>
-              <a class="nav-link py-0" id="circle" href="#"> <img src="IMG/bottom-circle.png" alt=""></a>
-              <a class="nav-link" href="#"><h2>Pricing</h2></a>
-              <a class="nav-link" href="#"><h2>Pricing</h2></a>
+              <a class=" nav-link text-white mt-2 px-5 align-middle" aria-current="page" href="#"><h4  class="hovereditem_light text-center navbar_text"> Eseményei az <br> irodalomban</h4></a>
+              <a  class=" nav-link text-white mt-2 px-5 align-middle" href="#"><h4  class="text-center hovereditem_light navbar_text ">Reformkor <br> főbb művei</h4></a>
+              <a class="nav-link py-0" id="circle" href="#"> <img class="" src="IMG/Navbar-1-Karinthy/Bottom-circle-karinthy.png" alt="Karinthy képe, Főoldal"></a>
+              <a  class=" nav-link text-white mt-2 px-5 align-middle" href="#"><h4  class="text-center hovereditem_light navbar_text"> Eseményei a <br> történelemben</h4></a>
+              <a  class=" nav-link text-white mt-2 px-5 align-middle" href="#"><h4  class="text-center hovereditem_light navbar_text"> Reformkor<br>maradványai</h4></a>
             </div>
           </div>
         </div>
         
       </nav>
-
     <!-- navbar vége -->
 
-    <label>
-        <input type="Checkbox">
+    <!--Navbar <MD kezdete-->
+    <div class="d-block d-md-none">
+      <div class="navigation" onmouseenter="startScript()">
+        <ul>
+          <li class="list">
+            <a href="#">
+              <span class="icon"> <img src="IMG/Navbar-1-Karinthy/Karinthy_logo_all.png" height="40" width="40" alt="Karinthy Frigyes képe"></span>
+            </a>
+          </li>
+
+          <li class="list active">
+            <a href="#">
+              <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+              <span class="title">Főoldal</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="#">
+              <span class="icon"><ion-icon name="pencil-outline"></ion-icon></span>
+              <span class="title">Eseményei az irodalomban</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="#">
+              <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+              <span class="title">Reformkor főbb művei</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="#">
+              <span class="icon"><ion-icon name="bulb-outline"></ion-icon></span>
+              <span class="title">Eseményei történelemben</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a href="#">
+              <span class="icon"><ion-icon name="newspaper-outline"></ion-icon></span>
+              <span class="title">Reformkor maradványai</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!--Navbar <MD vége-->
+
+    <!--Slider01 kezdete-->
+    <div class="MySlider">
+
+        <div class="Slider_01" id="white_sliderimage_1">
+          <img class="img-fluid" src="IMG/Slider01/white_sliderimage_1.png" alt="Üdvözöllek eme mese szerű visszautazásban a reformkorba!">
+        </div>
+
+        <div class="d-none" id="black_sliderimage_1" style="display: block;">
+          <img class="img-fluid"  src="IMG/Slider01/black_sliderimage_1.png">
+        </div>
+    
+        <div class="Slider_01" id="white_sliderimage_2">
+          <img class="img-fluid" src="IMG/Slider01/white_sliderimage_1.png">
+        </div>
+
+        <div class="d-none" id="black_sliderimage_2" style="display: none;">
+          <img class="img-fluid"  src="IMG/Slider01/black_sliderimage_1.png">
+        </div>
+
+        <div class="Slider_01" id="white_sliderimage_3">
+          <img class="img-fluid" src="IMG/Slider01/white_sliderimage_1.png">
+        </div>
+
+        <div class="d-none" id="black_sliderimage_3" style="display: none;">
+          <img class="img-fluid"  src="IMG/Slider01/black_sliderimage_1.png">
+        </div>
+
+    </div>
+    <!-- Slider01 vége-->
+
+    <!--Switcher kezdete-->
+    <div class="d-md-block d-none">
+      <label id="switcher_label" class="position-absolute" style="top:12%; left:2%">
+        <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
         <span class="check"></span>
-    </label>
+      </label> 
+    </div>
+    <!-- Switcher vége-->
+
+    <!--Card01 () kezdete-->
+    <div class="card card01 mx-auto my-5 py-2 px-2 card01-body" id="card01-body">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-md-7">
+            <h1 class="card-title card01-title card-tittles h1 card-text">Teast</h1>
+            <p class=" card-texts card01-text h2 text-justify-content szoveg01 card-text">Test</p>
+          </div>
+          <div class="col-md-5">
+            <img class="card01-image card-img" src="#" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 my-sm-3 text-sm-center my-auto text-center "><a href="#" class="gomb02 btn  btn-primary button text-center text-white gomb py-2 mx-3 my-2" id="button1" role="button" aria-pressed="true"><h3>Irodalom</h3></a></div>
+        <div class="col-sm-12 col-md-6 col-lg-3 text-sm-center my-auto text-center "><a href="#" class="gomb01 btn btn-info button text-center text-white gomb py-2 mx-3 my-2" id="button2"role="button" aria-pressed="true"><h3>Történelem</h3></a></div> 
+      </div>
+    </div>
+    <!--Card01 () vége-->                   
+
+
+
     <!-- Bootstrap min JS kezdete-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <!-- Bootstrap min JS vége-->
+    <!-- IONIcon JS kezdete-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- IONIcon JS vége-->
+    <!-- Black & White theme switcher JS kezdete-->
+    <script>
+       function BWSwithcer(){
+           var Switcher = document.getElementById("switcher").checked;
+           var Navbar1 = document.getElementById("navbar1");
+           var body = document.getElementById("body");
+           var navbartext = document.getElementsByClassName("navbar_text");
+          var cardbody = document.getElementById("card01-body");
+          var cardtext = document.getElementsByClassName("card-text");
+          var button1 = document.getElementById("button1");
+          var button2 =document.getElementById("button2");
+          var white_sliderimage_1 = document.getElementById("white_sliderimage_1");
+          var black_sliderimage_1 =document.getElementById("black_sliderimage_1");
+          var white_sliderimage_2 = document.getElementById("white_sliderimage_2");
+          var black_sliderimage_2 =document.getElementById("black_sliderimage_2");
+          var white_sliderimage_3 = document.getElementById("white_sliderimage_3");
+          var black_sliderimage_3 =document.getElementById("black_sliderimage_3");
+
+           if(Switcher==true){
+            Navbar1.classList.remove("bg-primary","navbar-dark");
+            Navbar1.classList.add("bg-black","navbar-dark");
+            body.style=`background-color:#092c3e`;
+            for (let i = 0; i < navbartext.length; i++) {
+                navbartext[i].classList.remove("hovereditem_light");
+                navbartext[i].classList.add("hovereditem_dark");
+            }
+            cardbody.style='background-color: #0A3348';
+            for (let o = 0; o < cardtext.length; o++) {
+                cardtext[o].classList.add("text-white");
+
+            }
+            button2.classList.remove("btn-primary");
+            button2.style=`background-color:#006666; border-color:#006666`;
+            button1.classList.remove("btn-info");
+            button1.style=`background-color:#001a66; border-color:#001a66`;
+            white_sliderimage_1.classList.remove("Slider_01");
+            white_sliderimage_1.classList.add("d-none");
+            black_sliderimage_1.classList.remove("d-none");
+            black_sliderimage_1.classList.add("Slider_01");
+
+            white_sliderimage_2.classList.remove("Slider_01");
+            white_sliderimage_2.classList.add("d-none");
+            black_sliderimage_2.classList.remove("d-none");
+            black_sliderimage_2.classList.add("Slider_01");
+
+            white_sliderimage_3.classList.remove("Slider_01");
+            white_sliderimage_3.classList.add("d-none");
+            black_sliderimage_3.classList.remove("d-none");
+            black_sliderimage_3.classList.add("Slider_01");
+            
+           }
+           if(Switcher==false){
+            Navbar1.classList.remove("bg-black","navbar-dark");
+            Navbar1.classList.add("bg-primary","navbar-dark");
+            body.style=`background-color:#fff`;
+
+            for (let i = 0; i < navbartext.length; i++) {
+                navbartext[i].classList.remove("hovereditem_dark");
+                navbartext[i].classList.add("hovereditem_light");
+            }
+            cardbody.style='background-color: #fff';
+            for (let o = 0; o < cardtext.length; o++) {
+                cardtext[o].classList.remove("text-white");
+            }
+
+            button1.classList.add("btn-primary");
+            button1.style=`background-color:; border-color:`;
+            button2.classList.add("btn-info");
+            button2.style=`background-color:; border-color:`;
+
+            black_sliderimage_1.classList.remove("Slider_01");
+            black_sliderimage_1.classList.add("d-none");
+            white_sliderimage_1.classList.remove("d-none");
+            white_sliderimage_1.classList.add("Slider_01");
+            
+            black_sliderimage_2.classList.remove("Slider_01");
+            black_sliderimage_2.classList.add("d-none");
+            white_sliderimage_2.classList.remove("d-none");
+            white_sliderimage_2.classList.add("Slider_01");
+
+            black_sliderimage_3.classList.remove("Slider_01");
+            black_sliderimage_3.classList.add("d-none");
+            white_sliderimage_3.classList.remove("d-none");
+            white_sliderimage_3.classList.add("Slider_01");
+           }
+        
+       }
+
+    </script>
+    <!-- Black & White theme switcher JS vége-->
+
+     <!-- Slider JS kezdete-->
+<script>
+    slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("Slider_01");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+  </script>
+  <!--Slider JS vége-->
+
+  <!-- Navbar MD> JS kezdete-->
+  <script>
+      
+
+      function activeLink(){
+        let list = document.querySelectorAll('.list');
+        list.forEach((item) => item.classList.remove('active'));
+        this.classList.add('active');
+      }
+
+      function startScript(){
+      list.forEach((item) => item.addEventListener('click', activeLink))
+      }
+
+
+  </script>
+  <!-- Navbar MD> JS vége-->
 </body>
 </html>
