@@ -359,6 +359,69 @@ transition-delay: 0.1ms;
     background-color: #4187f6; 
 }
 
+@media screen and (min-width:1650px) {
+    
+    .switcher{
+        top:12% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1700px) {
+    
+    .switcher{
+        top:11.5% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1750px) {
+    
+    .switcher{
+        top:11% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1800px) {
+    
+    .switcher{
+        top:10.8% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1850px) {
+    
+    .switcher{
+        top:10.7% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1900px) {
+    
+    .switcher{
+        top:10.6% !important; 
+        left:2% !important;
+    }
+
+}
+
+@media screen and (min-width:1950px) {
+    
+    .switcher{
+        top:10.7% !important; 
+        left:2% !important;
+    }
+
+}
+
 @media screen and (min-width:1920px) {
     
     .top-circle{
@@ -383,12 +446,22 @@ transition-delay: 0.1ms;
         margin-left: 39.5% !important;
     }
 
+    .switcher{
+        top:10.6% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2050px) {
     
     .top-circle{
         margin-left: 39.7% !important;
+    }
+
+    .switcher{
+        top:10.5% !important; 
+        left:2% !important;
     }
 
 }
@@ -399,12 +472,22 @@ transition-delay: 0.1ms;
         margin-left: 39.9% !important;
     }
 
+    .switcher{
+        top:10.4% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2150px) {
     
     .top-circle{
         margin-left: 40.1% !important;
+    }
+
+    .switcher{
+        top:10.3% !important; 
+        left:2% !important;
     }
 
 }
@@ -415,12 +498,22 @@ transition-delay: 0.1ms;
         margin-left: 40.3% !important;
     }
 
+    .switcher{
+        top:10.2% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2250px) {
     
     .top-circle{
         margin-left: 40.5% !important;
+    }
+
+    .switcher{
+        top:10% !important; 
+        left:2% !important;
     }
 
 }
@@ -431,12 +524,22 @@ transition-delay: 0.1ms;
         margin-left: 40.7% !important;
     }
 
+    .switcher{
+        top:9.9% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2350px) {
     
     .top-circle{
         margin-left: 40.9% !important;
+    }
+
+    .switcher{
+        top:9.75% !important; 
+        left:2% !important;
     }
 
 }
@@ -447,12 +550,22 @@ transition-delay: 0.1ms;
         margin-left: 41.1% !important;
     }
 
+    .switcher{
+        top:9.60% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2450px) {
     
     .top-circle{
         margin-left: 41.3% !important;
+    }
+
+    .switcher{
+        top:9.45% !important; 
+        left:2% !important;
     }
 
 }
@@ -463,12 +576,22 @@ transition-delay: 0.1ms;
         margin-left: 41.5% !important;
     }
 
+    .switcher{
+        top:9.3% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2550px) {
     
     .top-circle{
         margin-left: 41.7% !important;
+    }
+
+    .switcher{
+        top:9.15% !important; 
+        left:2% !important;
     }
 
 }
@@ -479,12 +602,22 @@ transition-delay: 0.1ms;
         margin-left: 41.9% !important;
     }
 
+    .switcher{
+        top:9.0% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2650px) {
     
     .top-circle{
         margin-left: 41.95% !important;
+    }
+
+    .switcher{
+        top:8.85% !important; 
+        left:2% !important;
     }
 
 }
@@ -495,12 +628,22 @@ transition-delay: 0.1ms;
         margin-left: 42.0% !important;
     }
 
+    .switcher{
+        top:8.7% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2750px) {
     
     .top-circle{
         margin-left: 42.17% !important;
+    }
+
+    .switcher{
+        top:8.55% !important; 
+        left:2% !important;
     }
 
 }
@@ -511,12 +654,22 @@ transition-delay: 0.1ms;
         margin-left: 42.2% !important;
     }
 
+    .switcher{
+        top:8.4% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2850px) {
     
     .top-circle{
         margin-left: 42.35% !important;
+    }
+
+    .switcher{
+        top:8.25% !important; 
+        left:2% !important;
     }
 
 }
@@ -527,6 +680,11 @@ transition-delay: 0.1ms;
         margin-left: 42.5% !important;
     }
 
+    .switcher{
+        top:8.1% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:2950px) {
@@ -535,12 +693,22 @@ transition-delay: 0.1ms;
         margin-left: 42.6% !important;
     }
 
+    .switcher{
+        top:7.95% !important; 
+        left:2% !important;
+    }
+
 }
 
 @media screen and (min-width:3000px) {
     
     .top-circle{
         margin-left: 42.75% !important;
+    }
+
+    .switcher{
+        top:7.8% !important; 
+        left:2% !important;
     }
 
 }
