@@ -410,8 +410,6 @@ transition-delay: 0.1ms;
     }
 }
 
-
-
 @media screen and (min-width:850px) {
     
     .switcher{
@@ -458,7 +456,7 @@ transition-delay: 0.1ms;
     }
 
     .top-circle{
-        margin-left: 30% !important;
+        margin-left: 30.2% !important;
     }
 }
 
@@ -496,7 +494,7 @@ transition-delay: 0.1ms;
     }
 
     .top-circle{
-        margin-left: 32% !important;
+        margin-left: 31.65% !important;
     }
 }
 
@@ -530,8 +528,13 @@ transition-delay: 0.1ms;
 @media screen and (min-width:1150px) {
     
     .switcher{
-        top:12% !important; 
+        top:13.5% !important; 
         left:2% !important;
+    }
+
+    .check{
+        width: 90px;
+        height: 40px;
     }
 
     .top-circle{
@@ -539,8 +542,9 @@ transition-delay: 0.1ms;
     }
 
     .nav-item{
-        padding: 8px 48px !important;
+        padding: 8px 40px !important;
     }
+
 }
 
 @media screen and (min-width:1200px) {
@@ -602,7 +606,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:1350px) {
     
     .switcher{
-        top:12% !important; 
+        top:13% !important; 
         left:2% !important;
     }
 
@@ -619,12 +623,12 @@ transition-delay: 0.1ms;
 @media screen and (min-width:1400px) {
     
     .switcher{
-        top:12% !important; 
+        top:12.5% !important; 
         left:2% !important;
     }
 
     .top-circle{
-        margin-left: 35.45% !important;
+        margin-left: 35.55% !important;
     }
 }
 
@@ -636,19 +640,19 @@ transition-delay: 0.1ms;
     }
 
     .top-circle{
-        margin-left: 35.90% !important;
+        margin-left: 36% !important;
     }
 }
 
 @media screen and (min-width:1500px) {
     
     .switcher{
-        top:12% !important; 
+        top:13% !important; 
         left:2% !important;
     }
 
     .top-circle{
-        margin-left: 36.35% !important;
+        margin-left: 36.2% !important;
     }
 
     .navbar-p{
@@ -750,7 +754,7 @@ transition-delay: 0.1ms;
     }
 
     .top-circle{
-        margin-left: 38.9% !important;
+        margin-left: 38.8% !important;
     }
 
 }
@@ -767,7 +771,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:1920px) {
     
     .top-circle{
-        margin-left: 39.1% !important;
+        margin-left: 39% !important;
     }
 
     .navbar-p{
@@ -819,7 +823,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2100px) {
     
     .top-circle{
-        margin-left: 39.9% !important;
+        margin-left: 39.8% !important;
     }
 
     .switcher{
@@ -832,7 +836,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2150px) {
     
     .top-circle{
-        margin-left: 40.1% !important;
+        margin-left: 40% !important;
     }
 
     .switcher{
@@ -845,7 +849,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2200px) {
     
     .top-circle{
-        margin-left: 40.3% !important;
+        margin-left: 40.2% !important;
     }
 
     .switcher{
@@ -858,7 +862,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2250px) {
     
     .top-circle{
-        margin-left: 40.5% !important;
+        margin-left: 40.4% !important;
     }
 
     .switcher{
@@ -871,7 +875,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2300px) {
     
     .top-circle{
-        margin-left: 40.7% !important;
+        margin-left: 40.6% !important;
     }
 
     .switcher{
@@ -884,7 +888,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2350px) {
     
     .top-circle{
-        margin-left: 40.9% !important;
+        margin-left: 40.8% !important;
     }
 
     .switcher{
@@ -897,7 +901,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2400px) {
     
     .top-circle{
-        margin-left: 41.1% !important;
+        margin-left: 41% !important;
     }
 
     .switcher{
@@ -1047,7 +1051,7 @@ transition-delay: 0.1ms;
 @media screen and (min-width:2950px) {
     
     .top-circle{
-        margin-left: 42.6% !important;
+        margin-left: 42.5% !important;
     }
 
     .switcher{
