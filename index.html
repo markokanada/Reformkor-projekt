@@ -12,6 +12,7 @@
 </head>
 <body id="body" class="position-relative">
 
+    <header>
     <!-- Navbar-MD kezdete -->
 
     <nav class="navbar d-md-block d-none navbar-expand-md navbar-dark bg-white py-0">
@@ -51,46 +52,46 @@
     <!-- navbar vége -->
     <!--Navbar <MD kezdete-->
     <div class="d-block d-md-none">
-      <div class="navigation" onmouseenter="startScript()">
-        <ul>
-          <li class="list">
+      <div class="navigation ms-0" onmouseenter="startScript()">
+        <ul class="mx-auto">
+          <li class="list my-2">
             <a href="#">
-              <span class="icon"> <img src="IMG/Navbar-1-Karinthy/Karinthy_logo_all.png" height="40" width="40" alt="Karinthy Frigyes képe"></span>
+              <span class="icon"> <img class="justify-content-center me-1" src="IMG/Navbar-1-Karinthy/Karinthy_logo_all.png" height="40" width="40" alt="Karinthy Frigyes képe"></span>
             </a>
           </li>
 
-          <li class="list active">
+          <li class="list active my-2">
             <a href="#">
-              <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-              <span class="title">Főoldal</span>
+              <span class="icon"><ion-icon class="justify-content-center me-1" name="home-outline"></ion-icon></span>
+              <span class="title ms-2">Főoldal</span>
             </a>
           </li>
 
-          <li class="list">
+          <li class="list my-2">
             <a href="#">
-              <span class="icon"><ion-icon name="pencil-outline"></ion-icon></span>
-              <span class="title">Eseményei az irodalomban</span>
+              <span class="icon"><ion-icon class="justify-content-center me-1" name="pencil-outline"></ion-icon></span>
+              <span class="title ms-2">Eseményei az irodalomban</span>
             </a>
           </li>
 
-          <li class="list">
+          <li class="list my-2">
             <a href="#">
-              <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
-              <span class="title">Reformkor főbb művei</span>
+              <span class="icon"><ion-icon class="justify-content-center me-1" name="book-outline"></ion-icon></span>
+              <span class="title ms-2">Reformkor főbb művei</span>
             </a>
           </li>
 
-          <li class="list">
+          <li class="list my-2">
             <a href="#">
-              <span class="icon"><ion-icon name="bulb-outline"></ion-icon></span>
-              <span class="title">Eseményei történelemben</span>
+              <span class="icon"><ion-icon class="justify-content-center me-1" name="bulb-outline"></ion-icon></span>
+              <span class="title ms-2">Eseményei történelemben</span>
             </a>
           </li>
 
-          <li class="list">
+          <li class="list my-2">
             <a href="#">
-              <span class="icon"><ion-icon name="newspaper-outline"></ion-icon></span>
-              <span class="title">Reformkor maradványai</span>
+              <span class="icon"><ion-icon class="justify-content-center me-1" name="newspaper-outline"></ion-icon></span>
+              <span class="title ms-2">Reformkor maradványai</span>
             </a>
           </li>
 
@@ -98,6 +99,8 @@
       </div>
     </div>
     <!--Navbar <MD vége-->
+</header>
+<div class="content">
     <!--Slider01 kezdete-->
     <div class="MySlider">
 
@@ -129,7 +132,7 @@
     <!-- Slider01 vége-->
 
     <!--Switcher kezdete-->
-    <div class="d-md-block d-none">
+    <div class="d-block">
       <label id="switcher_label" class="position-absolute switcher" >
         <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
         <span class="check"></span>
@@ -155,8 +158,12 @@
         <div class="col-sm-12 col-md-6 col-lg-3 text-sm-center my-auto text-center "><a href="#" class="gomb01 btn btn-info button text-center text-white gomb py-2 mx-3 my-2" id="button2"role="button" aria-pressed="true"><h3>Történelem</h3></a></div> 
       </div>
     </div>
+</div>
     <!--Card01 () vége-->                   
+    <footer>
 
+
+    </footer>
 
 
     <!-- Bootstrap min JS kezdete-->
