@@ -519,6 +519,15 @@ transition-delay: 0.1ms;
     white-space: nowrap;
 }
 
+.navigation ul li a .titleimg{
+    position: relative;
+    display: block;
+    padding-left: 2px;
+    height: 80px;
+    line-height: 80px;
+    white-space: nowrap;
+}
+
 .navigation li ul .active{
     background-color: #4187f6; 
 }
