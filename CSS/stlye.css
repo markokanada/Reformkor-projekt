@@ -2,6 +2,16 @@
     font-size: 90%;
 }
 
+.card01-image {
+    max-width: 50% !important;
+    height: auto;
+    vertical-align: middle;
+}
+
+.dark-card {
+    background-color: #0A3348 !important;
+}
+
 .bookcontainer {
     box-sizing: border-box;
     display: flex;
