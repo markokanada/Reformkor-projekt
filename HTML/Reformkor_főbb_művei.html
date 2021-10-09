@@ -313,6 +313,75 @@
 
     <!-- Könyv2 3D vége-->
 
+    <!--Card01 (Nemzeti dal) kezdete-->
+    <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+        <div class="card-body ">
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <h1 class="card-title card01-title card-tittles h3 card-text">Nemzeti Dal</h1>
+                    <p class="h4 text-justify-content szoveg01 card-text">Írta: Petőfi Sándor 1848 március 13-án</p>
+                    <p class="text-justify-content card-text">A vers eredetileg a március tizenkilencedikei népgyűlésre készült, de a bécsi forradalom felpörgette az történéseket így már március tizenötödikén a közönség elé tárult. A Nemzeti Dal volt az első vers melyet a szabad sajtó kiadott.
+                    </p>
+                    <p class="text-justify-content card-text">A mű nagyrészt az ellentétekre épít. Szembe állítja a múlt dicsőségét és jelen rabságát, majd a jövőbe mutat és a szabadságot választja.</p>
+                    <p class="text-justify-content card-text">A verset március 15.-én a Landerer-nyomda előtt közösen szavalta és esküdött föl rá az összegyültek.</p>
+
+
+                </div>
+                <div class="col-12 col-md-3">
+                    <img id="Petőfi_white" class="card01-image card-img img-fluid text-center d-block" src="../IMG/NemzetiDal/white_petőfi.png" alt=" Petőfi Sándor szobra" title="Petőfi Sándor szobra">
+                    <img id="Petőfi_dark" class="card01-image card-img img-fluid text-center d-none" src="../IMG/NemzetiDal/dark_petőfi.png" alt=" Petőfi Sándor szobra" title="Petőfi Sándor szobra">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!--Card01 (Nemzeti Dal) vége-->
+
+    <!-- Könyv3 3D kezdete-->
+
+    <div class="row ">
+        <div class="display-md-block display-none col-md-6 mt-5 mb-5 align-middle">
+            <div class="bookcontainer3">
+                <div class="book3">
+                    <img class="" src="../IMG/Book3/cover3.png" alt="A Nemzeti dal könyvi ábrázolása képpel" title="Az egér rátétele után a térben elmozdítható 3D-s megjelenítésű kép.">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 mt-5 pt-5 mb-5 vertical-align my-auto">
+            <div class="card card01 card02 card01-body">
+                <div class="card-body ">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-center vers h3 fw-bold card-text">Nemzeti dal</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col-6">
+                            <p class="text-center vers card-text">Talpra magyar, hí a haza!<br>Itt az idő, most vagy soha!<br>Rabok legyünk, vagy szabadok?<br>Ez a kérdés, válasszatok! – <br>A magyarok istenére <br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+                            <p class="text-center vers card-text">Rabok voltunk mostanáig,<br>Kárhozottak ősapáink,<br>Kik szabadon éltek-haltak,<br>Szolgaföldben nem nyughatnak.<br>A magyarok istenére<br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+                            <p class="text-center vers card-text">Sehonnai bitang ember,<br>Ki most, ha kell, halni nem mer,<br>Kinek drágább rongy élete,<br>Mint a haza becsülete.<br>A magyarok istenére <br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+
+                        </div>
+
+                        <div class="col-6">
+                            <p class="text-center vers card-text">Fényesebb a láncnál a kard,<br>Jobban ékesíti a kart,<br>És mi mégis láncot hordunk!<br>Ide veled, régi kardunk!<br>A magyarok istenére<br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+                            <p class="text-center vers card-text">A magyar név megint szép lesz,<br>Méltó régi nagy hiréhez;<br>Mit rákentek a századok,<br>Lemossuk a gyalázatot!<br>A magyarok istenére<br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+                            <p class="text-center vers card-text">Hol sírjaink domborulnak,<br>Unokáink leborulnak,<br>És áldó imádság mellett<br>Mondják el szent neveinket.<br>A magyarok istenére <br>Esküszünk, <br>Esküszünk, hogy rabok tovább <br>Nem leszünk! </p>
+                            <p class="text-end vers card-text"><i>1848, március 13</i></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Könyv3 3D vége-->
+
 
     <footer>
 
@@ -348,6 +417,8 @@
             var dark_kölcsey = document.getElementById("Kölcsey_dark");
             var white_vörösmarty = document.getElementById("Vörösmarty_white");
             var dark_vörösmarty = document.getElementById("Vörösmarty_dark");
+            var white_petőfi = document.getElementById("Petőfi_white");
+            var dark_petőfi = document.getElementById("Petőfi_dark");
 
             if (Switcher == true) {
                 Navbar1.classList.remove("bg-primary", "navbar-dark");
@@ -395,6 +466,11 @@
                 white_vörösmarty.classList.remove("d-block");
                 dark_vörösmarty.classList.add("d-block");
                 white_vörösmarty.classList.add("d-none");
+
+                dark_petőfi.classList.remove("d-none");
+                white_petőfi.classList.remove("d-block");
+                dark_petőfi.classList.add("d-block");
+                white_petőfi.classList.add("d-none");
 
 
             }
@@ -445,6 +521,11 @@
                 dark_vörösmarty.classList.remove("d-block");
                 white_vörösmarty.classList.add("d-block");
                 dark_vörösmarty.classList.add("d-none");
+
+                white_petőfi.classList.remove("d-none");
+                dark_petőfi.classList.remove("d-block");
+                white_petőfi.classList.add("d-block");
+                dark_petőfi.classList.add("d-none");
             }
 
         }
