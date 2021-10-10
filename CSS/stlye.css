@@ -151,6 +151,96 @@
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.bookcontainer4 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.bookcontainer4 .book4 {
+    position: relative;
+    width: 575px;
+    height: 850px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.bookcontainer4 .book4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bookcontainer4 .book4::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    transform-origin: left;
+    background-image: url(../IMG/Book4/side4.png);
+    /* background-color: rgb(150, 146, 134); */
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotateY(90deg);
+}
+
+.bookcontainer4 .book4:hover {
+    transform: rotateY(35deg);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bookcontainer5 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.bookcontainer5 .book5 {
+    position: relative;
+    width: 575px;
+    height: 850px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+.bookcontainer5 .book5 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bookcontainer5 .book5::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    transform-origin: left;
+    background-image: url(../IMG/Book5/side5.png);
+    /* background-color: rgb(150, 146, 134); */
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotateY(90deg);
+}
+
+.bookcontainer5 .book5:hover {
+    transform: rotateY(35deg);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .hovereditem_light {
     transition-duration: 0.5ms;
     transition-delay: 0.1ms;
