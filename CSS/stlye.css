@@ -364,6 +364,9 @@
         padding-left: 70px !important;
         /*margin-left: 70px !important;*/
     }
+    .content .row {
+        padding-left: 10px !important;
+    }
 }
 
 @media screen and (min-width:140px) {
