@@ -14,7 +14,7 @@
 
 .bookcontainer {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -59,7 +59,7 @@
 
 .bookcontainer2 {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -108,7 +108,7 @@
 
 .bookcontainer3 {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -153,7 +153,7 @@
 
 .bookcontainer4 {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -198,7 +198,7 @@
 
 .bookcontainer5 {
     box-sizing: border-box;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d;
@@ -362,6 +362,7 @@
     }
     .content {
         padding-left: 70px !important;
+        /*margin-left: 70px !important;*/
     }
 }
 
@@ -643,7 +644,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 1500px;
+    height: 100%;
     width: 70px;
     background-color: #2b343b;
     box-shadow: 10px 0 0 #4187f6;
@@ -826,6 +827,7 @@
     }
     .content {
         padding-left: 0px !important;
+        /*margin-left: 70px !important;*/
     }
 }
 
@@ -1149,6 +1151,10 @@
         font-size: 1.5em !important;
         font-weight: 500;
     }
+    .szobor {
+        width: 40% !important;
+        vertical-align: middle !important;
+    }
 }
 
 @media screen and (min-width:1960px) {
@@ -1269,6 +1275,10 @@
         top: 9.3% !important;
         left: 2% !important;
     }
+    .szobor {
+        width: 35% !important;
+        vertical-align: middle !important;
+    }
 }
 
 @media screen and (min-width:2550px) {
@@ -1312,6 +1322,10 @@
     .switcher {
         top: 8.7% !important;
         left: 2% !important;
+    }
+    .szobor {
+        width: 25% !important;
+        vertical-align: middle !important;
     }
 }
 
