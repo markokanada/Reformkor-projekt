@@ -144,7 +144,7 @@
 
         <!--Switcher kezdete-->
         <div class="d-block">
-            <label id="switcher_label" class="position-absolute switcher">
+            <label id="switcher_label" class="position-absolute switcher2">
         <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
         <span class="check"></span>
       </label>
@@ -185,7 +185,32 @@
         </div>
         <!--Card01 (Az oldal altémái) vége-->
 
-        <!--Card01 (Készítette) kezdete-->
+        <!--Gallery kezdete-->
+        <!--<div class="gallery">
+             Gallery szűrő gombok kezdete
+            <ul class="controls">
+                <li class="buttons active" data-filter="all">Összes</li>
+            </ul>
+             Gallery szűrő gombok vége
+             Gallery képek kezdete
+            <div class="image-container">
+                                    <a href="IMG/All_white/48astörvények_white.png" class="image all">
+                        <img src="IMG/All_white/48astörvények_white.png" alt="">
+                    </a>
+                <div id="galleryElement_white" class="d-block">
+
+                </div>
+                <div id="galleryElement_dark" class="d-none">
+                    <a href="IMG/All_white/5.Ferdinand_white.png" class="image all">
+                        <img src="IMG/All_white/5.Ferdinand_white.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+             Gallery képek vége
+        </div>
+
+        Card01 (Készítette) kezdete-->
         <div class="row">
             <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
                 <div class="card-body justify-content-center text-center">
@@ -232,7 +257,58 @@
         </footer>
         <!-- Footer vége-->
 
+        <!-- Jquerry kezdete  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Jquerry vége  -->
+        <!-- Gallery JS kezdete-->
+        <script>
+            $(document).ready(function() {
 
+                $('.buttons').click(function() {
+
+                    $(this).addClass('active').siblings().removeClass('active');
+
+                    var filter = $(this).attr('data-filter')
+
+                    if (filter == 'all') {
+                        $('.image').show(400);
+                    } else {
+                        $('.image').not('.' + filter).hide(200);
+                        $('.image').filter('.' + filter).show(400);
+                    }
+
+                });
+
+                $('.gallery').magnificPopup({
+
+                    delegate: 'a',
+                    type: 'image',
+                    gallery: {
+                        enabled: true
+                    }
+
+                });
+
+            });
+        </script>
+        <!-- Gallery JS vége-->
+        <!--ScrollReveal JS Library kezdete -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--ScrollReveal JS Library vége -->
+
+        <!-- ScrollReveal JS kezdete-->
+        <script>
+            ScrollReveal().reveal('.image', {
+                delay: 200
+            });
+        </script>
+        <!-- ScrollReveal JS vége-->
+        <!-- popper js kezdete-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <!-- popper js vége-->
+        <!-- magnific popup js kezdete  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- magnific popup js vége  -->
         <!-- Bootstrap min JS kezdete-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         <!-- Bootstrap min JS vége-->
@@ -261,6 +337,8 @@
                 var footer = document.getElementById("footer");
                 var ReformkoriPest_white = document.getElementById("ReformkoriPest_white");
                 var ReformkoriPest_dark = document.getElementById("ReformkoriPest_dark");
+                var galleryElement_dark = document.getElementById("galleryElement_dark");
+                var galleryElement_white = document.getElementById("galleryElement_white");
 
                 if (Switcher == true) {
                     Navbar1.classList.remove("bg-primary", "navbar-dark");
@@ -308,6 +386,11 @@
                     footer.classList.add("bg-black");
                     footer.classList.remove("bg-primary");
 
+                    /*galleryElement_white.classList.remove("d-block");
+                    galleryElement_white.classList.add("d-none");
+                    galleryElement_dark.classList.add("d-block");
+                    galleryElement_dark.classList.remove("d-none");*/
+
                 }
                 if (Switcher == false) {
                     Navbar1.classList.remove("bg-black", "navbar-dark");
@@ -354,6 +437,11 @@
                     ReformkoriPest_white.classList.remove("d-none");
                     ReformkoriPest_dark.classList.add("d-none");
                     ReformkoriPest_dark.classList.remove("d-block");
+
+                    /* galleryElement_dark.classList.remove("d-block");
+                     galleryElement_dark.classList.add("d-none");
+                     galleryElement_white.classList.add("d-block");
+                     galleryElement_white.classList.remove("d-none");*/
                 }
 
             }
