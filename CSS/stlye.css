@@ -8,6 +8,10 @@
     vertical-align: middle;
 }
 
+.szobor2 {
+    max-width: 60% !important;
+}
+
 .dark-card {
     background-color: #0A3348 !important;
 }
