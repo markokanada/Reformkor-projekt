@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/stlye.css">
     <link rel="shortcut icon" href="IMG/MainPageIcon/Karinthy_logo_all.ico" type="image/x-icon">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
 
 </head>
 
@@ -157,8 +160,9 @@
                 <div class="card-body ">
                     <div class="row">
                         <div class="col-12 col-lg-8">
-                            <h1 class="navbar_text hovereditem_light card-text">A reformkor projekt<span class="navbar_text h5 d-inline card-text">Az oldal oktatási céllal készült!</span></h1>
-                            <p class="text-justify-content card-text"> Az oldalon az alábbi altémákat dolgozzuk fel:
+                            <h1 class="navbar_text hovereditem_light card-text">A reformkor projekt</h1>
+                            <h5 class="card-text hovereditem_light navbar_text">Az oldal oktatási céllal készült!</h5>
+                            <p class="text-justify card-text pt-2"> Az oldalon az alábbi altémákat dolgozzuk fel:
 
                                 <ul>
                                     <p class="fw-bold card-text py-0 my-0">Irodalmi altémák</p>
@@ -185,37 +189,44 @@
         </div>
         <!--Card01 (Az oldal altémái) vége-->
 
-        <!--Gallery kezdete-->
-        <!--<div class="gallery">
-             Gallery szűrő gombok kezdete
+        <!--GalleryElement kezdete-->
+        <div id="galleryElement" class="gallery d-block">
+            <!--Gallery szűrő gombok kezdete-->
             <ul class="controls">
-                <li class="buttons active" data-filter="all">Összes</li>
+                <ul class="controls">
+                    <li class="buttons active" data-filter="all">Összes</li>
+                    <li class="buttons" data-filter="white">Világos</li>
+                    <li class="buttons" data-filter="dark">Sötét</li>
+                </ul>
             </ul>
-             Gallery szűrő gombok vége
-             Gallery képek kezdete
+            <!--Gallery szűrő gombok vége-->
+            <!--Gallery képek kezdete-->
             <div class="image-container">
-                                    <a href="IMG/All_white/48astörvények_white.png" class="image all">
-                        <img src="IMG/All_white/48astörvények_white.png" alt="">
-                    </a>
-                <div id="galleryElement_white" class="d-block">
+                <a href="IMG/All_white/48astörvények_white.png" class="image white ">
+                    <img src="IMG/All_white/48astörvények_white.png" alt="48-as törvények">
+                </a>
 
-                </div>
-                <div id="galleryElement_dark" class="d-none">
-                    <a href="IMG/All_white/5.Ferdinand_white.png" class="image all">
-                        <img src="IMG/All_white/5.Ferdinand_white.png" alt="">
-                    </a>
-                </div>
+                <a href="IMG/All_white/5.Ferdinand_white.png" class="image white ">
+                    <img src="IMG/All_white/5.Ferdinand_white.png" alt="5.Ferdinand">
+                </a>
 
+                <a href="IMG/All_dark/48astörvények_dark.png" class="image dark ">
+                    <img src="IMG/All_dark/48astörvények_dark.png" alt="48-as törvények">
+                </a>
+
+                <a href="IMG/All_dark/5.Ferdinand_dark.png" class="image dark ">
+                    <img src="IMG/All_dark/5.Ferdinand_dark.png" alt="5.Ferdinand">
+                </a>
             </div>
-             Gallery képek vége
+            <!--Gallery képek vége-->
         </div>
 
-        Card01 (Készítette) kezdete-->
+        <!--Card01 (Készítette) kezdete-->
         <div class="row">
             <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
                 <div class="card-body justify-content-center text-center">
-                    <div class="row">
-                        <div class="col-12 mx-auto">
+                    <div class="row tablex">
+                        <div class="col-12 mx-auto ">
                             <table class="text-center table table-primary table-striped " id="table">
                                 <tr>
                                     <th class="card-text" colspan="4">Az oldal anyagi részét kigyűjtőtte:</th>
@@ -233,255 +244,275 @@
                                     <td class="card-text">Granilla Péter</td>
                                 </tr>
                             </table>
-                            <p class="text-center card-text">Az oldalban való segédkezést, lektorációt kifejezetten köszönjük: <strong>Mező György, Fenyvessy Gábor, Mészáros Péter tanárainknak!</strong></p>
                         </div>
                     </div>
+
+                    <div class="row tabley">
+                        <div class="col-12 mx-auto ">
+                            <table class="text-center table table-primary table-striped " id="table">
+                                <tr>
+                                    <th class="card-text" colspan="2">Az oldal anyagi részét kigyűjtőtte:</th>
+                                </tr>
+                                <tr>
+                                    <th class="card-text">Reformkor az irodalomban</th>
+                                    <td class="card-text">Buborék Márkó</td>
+                                </tr>
+                                <tr>
+                                    <th class="card-text">Reformkor főbb művei</th>
+                                    <td class="card-text">Csóka Marci</td>
+                                </tr>
+                                <tr>
+                                    <th class="card-text">Reformkor a történelemben</th>
+                                    <td class="card-text">Hajdu Benedek</td>
+                                </tr>
+                                <tr>
+                                    <th class="card-text">Reformkor maradványai</th>
+                                    <td class="card-text">Granilla Péter</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <p class="text-center card-text">Az oldalban való segédkezést, lektorációt kifejezetten köszönjük: <strong>Mező György, Fenyvessy Gábor, Mészáros Péter tanárainknak!</strong></p>
                 </div>
             </div>
         </div>
-        <!--Card01 (Készítette) vége-->
+    </div>
+    </div>
+    <!--Card01 (Készítette) vége-->
 
-        <!--Footer kezdete-->
-        <footer class="bg-primary px-3 content" id="footer">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 my-3 text-center text-md-start">
-                    <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5 d-xl-inline d-none">All rights reserved 2021</span></h1>
-                    <p><span class="text-white navbar_text h5 d-xl-none d-block">All rights reserved 2021</span></p>
-                </div>
-                <div class="col-sm-12 col-md-6 my-3 text-center text-md-end">
-                    <h3 class="text-white fw-bold navbar_text hovereditem_light"><span class="copyright" id="Copyright"> &copy; Created by Team M.E.M.Ő <br> <span class="h5">Main Dev Buborék Márkó</span> </span>
-                    </h3>
+    <!--Footer kezdete-->
+    <footer class="bg-primary px-3 content" id="footer">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 my-3 text-center text-md-start">
+                <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5 d-xl-inline d-none">All rights reserved 2021</span></h1>
+                <p><span class="text-white navbar_text h5 d-xl-none d-block">All rights reserved 2021</span></p>
+            </div>
+            <div class="col-sm-12 col-md-6 my-3 text-center text-md-end">
+                <h3 class="text-white fw-bold navbar_text hovereditem_light"><span class="copyright" id="Copyright"> &copy; Created by Team M.E.M.Ő <br> <span class="h5">Main Dev Buborék Márkó</span> </span>
+                </h3>
 
-                </div>
+            </div>
 
-        </footer>
-        <!-- Footer vége-->
+    </footer>
+    <!-- Footer vége-->
 
-        <!-- Jquerry kezdete  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Jquerry vége  -->
-        <!-- Gallery JS kezdete-->
-        <script>
-            $(document).ready(function() {
 
-                $('.buttons').click(function() {
+    <!-- popper js kezdete-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- popper js vége-->
+    <!-- Jquerry kezdete  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Jquerry vége  -->
 
-                    $(this).addClass('active').siblings().removeClass('active');
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- Gallery JS kezdete-->
+    <script>
+        $(document).ready(function() {
 
-                    var filter = $(this).attr('data-filter')
+            $('.buttons').click(function() {
 
-                    if (filter == 'all') {
-                        $('.image').show(400);
-                    } else {
-                        $('.image').not('.' + filter).hide(200);
-                        $('.image').filter('.' + filter).show(400);
-                    }
+                $(this).addClass('active').siblings().removeClass('active');
 
-                });
+                var filter = $(this).attr('data-filter')
 
-                $('.gallery').magnificPopup({
-
-                    delegate: 'a',
-                    type: 'image',
-                    gallery: {
-                        enabled: true
-                    }
-
-                });
+                if (filter == 'all') {
+                    $('.image').show(400);
+                } else {
+                    $('.image').not('.' + filter).hide(200);
+                    $('.image').filter('.' + filter).show(400);
+                }
 
             });
-        </script>
-        <!-- Gallery JS vége-->
-        <!--ScrollReveal JS Library kezdete -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!--ScrollReveal JS Library vége -->
 
-        <!-- ScrollReveal JS kezdete-->
-        <script>
-            ScrollReveal().reveal('.image', {
-                delay: 200
+            $('.gallery').magnificPopup({
+
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+
             });
-        </script>
-        <!-- ScrollReveal JS vége-->
-        <!-- popper js kezdete-->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <!-- popper js vége-->
-        <!-- magnific popup js kezdete  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <!-- magnific popup js vége  -->
-        <!-- Bootstrap min JS kezdete-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-        <!-- Bootstrap min JS vége-->
-        <!-- IONIcon JS kezdete-->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <!-- IONIcon JS vége-->
-        <!-- Black & White theme switcher JS kezdete-->
-        <script>
-            function BWSwithcer() {
-                var Switcher = document.getElementById("switcher").checked;
-                var Navbar1 = document.getElementById("navbar1");
-                var body = document.getElementById("body");
-                var navbartext = document.getElementsByClassName("navbar_text");
-                var cardbody = document.getElementsByClassName("card01-body");
-                var cardtext = document.getElementsByClassName("card-text");
-                //var button1 = document.getElementById("button1");
-                //var button2 =document.getElementById("button2");
-                var white_sliderimage_1 = document.getElementById("white_sliderimage_1");
-                var black_sliderimage_1 = document.getElementById("black_sliderimage_1");
-                var white_sliderimage_2 = document.getElementById("white_sliderimage_2");
-                var black_sliderimage_2 = document.getElementById("black_sliderimage_2");
-                var white_sliderimage_3 = document.getElementById("white_sliderimage_3");
-                var black_sliderimage_3 = document.getElementById("black_sliderimage_3");
-                var table = document.getElementById("table");
-                var footer = document.getElementById("footer");
-                var ReformkoriPest_white = document.getElementById("ReformkoriPest_white");
-                var ReformkoriPest_dark = document.getElementById("ReformkoriPest_dark");
-                var galleryElement_dark = document.getElementById("galleryElement_dark");
-                var galleryElement_white = document.getElementById("galleryElement_white");
 
-                if (Switcher == true) {
-                    Navbar1.classList.remove("bg-primary", "navbar-dark");
-                    Navbar1.classList.add("bg-black", "navbar-dark");
-                    body.style = `background-color:#092c3e`;
-                    for (let i = 0; i < navbartext.length; i++) {
-                        navbartext[i].classList.remove("hovereditem_light");
-                        navbartext[i].classList.add("hovereditem_dark");
-                    }
-                    cardbody.style = 'background-color: #0A3348';
-                    for (let o = 0; o < cardtext.length; o++) {
-                        cardtext[o].classList.add("text-white");
+        });
+    </script>
+    <!-- Gallery JS vége-->
+    <!--ScrollReveal JS Library kezdete -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--ScrollReveal JS Library vége -->
 
-                    }
-                    //button2.classList.remove("btn-primary");
-                    //button2.style=`background-color:#006666; border-color:#006666`;
-                    //button1.classList.remove("btn-info");
-                    //button1.style=`background-color:#001a66; border-color:#001a66`;
-                    white_sliderimage_1.classList.remove("Slider_01");
-                    white_sliderimage_1.classList.add("d-none");
-                    black_sliderimage_1.classList.remove("d-none");
-                    black_sliderimage_1.classList.add("Slider_01");
+    <!-- ScrollReveal JS kezdete-->
+    <script>
+        ScrollReveal().reveal('.image', {
+            delay: 200
+        });
+    </script>
+    <!-- ScrollReveal JS vége-->
+    <!-- Bootstrap min JS kezdete-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- Bootstrap min JS vége-->
+    <!-- IONIcon JS kezdete-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- IONIcon JS vége-->
+    <!-- Black & White theme switcher JS kezdete-->
+    <script>
+        function BWSwithcer() {
+            var Switcher = document.getElementById("switcher").checked;
+            var Navbar1 = document.getElementById("navbar1");
+            var body = document.getElementById("body");
+            var navbartext = document.getElementsByClassName("navbar_text");
+            var cardbody = document.getElementsByClassName("card01-body");
+            var cardtext = document.getElementsByClassName("card-text");
+            //var button1 = document.getElementById("button1");
+            //var button2 =document.getElementById("button2");
+            var white_sliderimage_1 = document.getElementById("white_sliderimage_1");
+            var black_sliderimage_1 = document.getElementById("black_sliderimage_1");
+            var white_sliderimage_2 = document.getElementById("white_sliderimage_2");
+            var black_sliderimage_2 = document.getElementById("black_sliderimage_2");
+            var white_sliderimage_3 = document.getElementById("white_sliderimage_3");
+            var black_sliderimage_3 = document.getElementById("black_sliderimage_3");
+            var table = document.getElementById("table");
+            var footer = document.getElementById("footer");
+            var ReformkoriPest_white = document.getElementById("ReformkoriPest_white");
+            var ReformkoriPest_dark = document.getElementById("ReformkoriPest_dark");
+            var galleryElement = document.getElementById("galleryElement");
 
-                    white_sliderimage_2.classList.remove("Slider_01");
-                    white_sliderimage_2.classList.add("d-none");
-                    black_sliderimage_2.classList.remove("d-none");
-                    black_sliderimage_2.classList.add("Slider_01");
-
-                    white_sliderimage_3.classList.remove("Slider_01");
-                    white_sliderimage_3.classList.add("d-none");
-                    black_sliderimage_3.classList.remove("d-none");
-                    black_sliderimage_3.classList.add("Slider_01");
-                    table.classList.remove("table-primary");
-                    table.classList.add("table-dark");
-
-                    ReformkoriPest_dark.classList.add("d-block");
-                    ReformkoriPest_dark.classList.remove("d-none");
-                    ReformkoriPest_white.classList.add("d-none");
-                    ReformkoriPest_white.classList.remove("d-block");
-
-                    for (let d = 0; d < cardbody.length; d++) {
-                        cardbody[d].classList.add("dark-card");
-                    }
-
-                    footer.classList.add("bg-black");
-                    footer.classList.remove("bg-primary");
-
-                    /*galleryElement_white.classList.remove("d-block");
-                    galleryElement_white.classList.add("d-none");
-                    galleryElement_dark.classList.add("d-block");
-                    galleryElement_dark.classList.remove("d-none");*/
+            if (Switcher == true) {
+                Navbar1.classList.remove("bg-primary", "navbar-dark");
+                Navbar1.classList.add("bg-black", "navbar-dark");
+                body.style = `background-color:#092c3e`;
+                for (let i = 0; i < navbartext.length; i++) {
+                    navbartext[i].classList.remove("hovereditem_light");
+                    navbartext[i].classList.add("hovereditem_dark");
+                }
+                cardbody.style = 'background-color: #0A3348';
+                for (let o = 0; o < cardtext.length; o++) {
+                    cardtext[o].classList.add("text-white");
 
                 }
-                if (Switcher == false) {
-                    Navbar1.classList.remove("bg-black", "navbar-dark");
-                    Navbar1.classList.add("bg-primary", "navbar-dark");
-                    body.style = `background-color:#fff`;
+                //button2.classList.remove("btn-primary");
+                //button2.style=`background-color:#006666; border-color:#006666`;
+                //button1.classList.remove("btn-info");
+                //button1.style=`background-color:#001a66; border-color:#001a66`;
+                white_sliderimage_1.classList.remove("Slider_01");
+                white_sliderimage_1.classList.add("d-none");
+                black_sliderimage_1.classList.remove("d-none");
+                black_sliderimage_1.classList.add("Slider_01");
 
-                    for (let i = 0; i < navbartext.length; i++) {
-                        navbartext[i].classList.remove("hovereditem_dark");
-                        navbartext[i].classList.add("hovereditem_light");
-                    }
-                    cardbody.style = 'background-color: #fff';
-                    for (let o = 0; o < cardtext.length; o++) {
-                        cardtext[o].classList.remove("text-white");
-                    }
+                white_sliderimage_2.classList.remove("Slider_01");
+                white_sliderimage_2.classList.add("d-none");
+                black_sliderimage_2.classList.remove("d-none");
+                black_sliderimage_2.classList.add("Slider_01");
 
-                    //button1.classList.add("btn-primary");
-                    //button1.style=`background-color:; border-color:`;
-                    //button2.classList.add("btn-info");
-                    //button2.style=`background-color:; border-color:`;
+                white_sliderimage_3.classList.remove("Slider_01");
+                white_sliderimage_3.classList.add("d-none");
+                black_sliderimage_3.classList.remove("d-none");
+                black_sliderimage_3.classList.add("Slider_01");
+                table.classList.remove("table-primary");
+                table.classList.add("table-dark");
 
-                    black_sliderimage_1.classList.remove("Slider_01");
-                    black_sliderimage_1.classList.add("d-none");
-                    white_sliderimage_1.classList.remove("d-none");
-                    white_sliderimage_1.classList.add("Slider_01");
+                ReformkoriPest_dark.classList.add("d-block");
+                ReformkoriPest_dark.classList.remove("d-none");
+                ReformkoriPest_white.classList.add("d-none");
+                ReformkoriPest_white.classList.remove("d-block");
 
-                    black_sliderimage_2.classList.remove("Slider_01");
-                    black_sliderimage_2.classList.add("d-none");
-                    white_sliderimage_2.classList.remove("d-none");
-                    white_sliderimage_2.classList.add("Slider_01");
-
-                    black_sliderimage_3.classList.remove("Slider_01");
-                    black_sliderimage_3.classList.add("d-none");
-                    white_sliderimage_3.classList.remove("d-none");
-                    white_sliderimage_3.classList.add("Slider_01");
-
-                    for (let d = 0; d < cardbody.length; d++) {
-                        cardbody[d].classList.remove("dark-card");
-
-                        footer.classList.add("bg-primary");
-                        footer.classList.remove("bg-black");
-                    }
-
-                    ReformkoriPest_white.classList.add("d-block");
-                    ReformkoriPest_white.classList.remove("d-none");
-                    ReformkoriPest_dark.classList.add("d-none");
-                    ReformkoriPest_dark.classList.remove("d-block");
-
-                    /* galleryElement_dark.classList.remove("d-block");
-                     galleryElement_dark.classList.add("d-none");
-                     galleryElement_white.classList.add("d-block");
-                     galleryElement_white.classList.remove("d-none");*/
+                for (let d = 0; d < cardbody.length; d++) {
+                    cardbody[d].classList.add("dark-card");
                 }
 
+                footer.classList.add("bg-black");
+                footer.classList.remove("bg-primary");
+                galleryElement.style = 'background-color: #092c3e !important'
             }
-        </script>
-        <!-- Black & White theme switcher JS vége-->
+            if (Switcher == false) {
+                Navbar1.classList.remove("bg-black", "navbar-dark");
+                Navbar1.classList.add("bg-primary", "navbar-dark");
+                body.style = `background-color:#fff`;
 
-        <!-- Slider JS kezdete-->
-        <script>
-            slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                var i;
-                var slides = document.getElementsByClassName("Slider_01");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
+                for (let i = 0; i < navbartext.length; i++) {
+                    navbartext[i].classList.remove("hovereditem_dark");
+                    navbartext[i].classList.add("hovereditem_light");
                 }
-                slideIndex++;
-                if (slideIndex > slides.length) {
-                    slideIndex = 1
+                cardbody.style = 'background-color: #fff';
+                for (let o = 0; o < cardtext.length; o++) {
+                    cardtext[o].classList.remove("text-white");
                 }
-                slides[slideIndex - 1].style.display = "block";
-                setTimeout(showSlides, 5000); // Change image every 5 seconds
-            }
-        </script>
-        <!--Slider JS vége-->
 
-        <!-- Navbar MD> JS kezdete-->
-        <script>
-            function activeLink() {
-                let list = document.querySelectorAll('.list');
-                list.forEach((item) => item.classList.remove('active'));
-                this.classList.add('active');
+                //button1.classList.add("btn-primary");
+                //button1.style=`background-color:; border-color:`;
+                //button2.classList.add("btn-info");
+                //button2.style=`background-color:; border-color:`;
+
+                black_sliderimage_1.classList.remove("Slider_01");
+                black_sliderimage_1.classList.add("d-none");
+                white_sliderimage_1.classList.remove("d-none");
+                white_sliderimage_1.classList.add("Slider_01");
+
+                black_sliderimage_2.classList.remove("Slider_01");
+                black_sliderimage_2.classList.add("d-none");
+                white_sliderimage_2.classList.remove("d-none");
+                white_sliderimage_2.classList.add("Slider_01");
+
+                black_sliderimage_3.classList.remove("Slider_01");
+                black_sliderimage_3.classList.add("d-none");
+                white_sliderimage_3.classList.remove("d-none");
+                white_sliderimage_3.classList.add("Slider_01");
+
+                for (let d = 0; d < cardbody.length; d++) {
+                    cardbody[d].classList.remove("dark-card");
+
+                    footer.classList.add("bg-primary");
+                    footer.classList.remove("bg-black");
+                }
+
+                ReformkoriPest_white.classList.add("d-block");
+                ReformkoriPest_white.classList.remove("d-none");
+                ReformkoriPest_dark.classList.add("d-none");
+                ReformkoriPest_dark.classList.remove("d-block");
+
+                galleryElement.style = 'background-color: #fff !import'
             }
 
-            function startScript() {
-                list.forEach((item) => item.addEventListener('click', activeLink))
+        }
+    </script>
+    <!-- Black & White theme switcher JS vége-->
+
+    <!-- Slider JS kezdete-->
+    <script>
+        slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("Slider_01");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
             }
-        </script>
-        <!-- Navbar MD> JS vége-->
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
+    <!--Slider JS vége-->
+
+    <!-- Navbar MD> JS kezdete-->
+    <script>
+        function activeLink() {
+            let list = document.querySelectorAll('.list');
+            list.forEach((item) => item.classList.remove('active'));
+            this.classList.add('active');
+        }
+
+        function startScript() {
+            list.forEach((item) => item.addEventListener('click', activeLink))
+        }
+    </script>
+    <!-- Navbar MD> JS vége-->
 </body>
 
 </html>

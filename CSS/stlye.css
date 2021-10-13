@@ -2,6 +2,87 @@
     font-size: 90%;
 }
 
+.gallery {
+    min-height: 100vh;
+    background: #eee;
+    padding-bottom: 100px;
+}
+
+.gallery .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.gallery .controls .buttons {
+    height: 40px;
+    width: 140px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.gallery .controls .buttons.active {
+    background: coral;
+    color: #fff;
+}
+
+.gallery .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image {
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border: 15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+}
+
+.gallery .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:625px) {
+    .tablex {
+        display: none !important;
+    }
+    .tabley {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width:630px) {
+    .tablex {
+        display: block !important;
+    }
+    .tabley {
+        display: none !important;
+    }
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
 .card01-image {
     max-width: 50% !important;
     height: auto;
