@@ -190,34 +190,87 @@
         <!--Card01 (Az oldal altémái) vége-->
 
         <!--GalleryElement kezdete-->
-        <div id="galleryElement" class="gallery d-block">
+        <div id="galleryElement"  class="gallery d-block">
             <!--Gallery szűrő gombok kezdete-->
             <ul class="controls">
-                <ul class="controls">
-                    <li class="buttons active" data-filter="all">Összes</li>
-                    <li class="buttons" data-filter="white">Világos</li>
-                    <li class="buttons" data-filter="dark">Sötét</li>
+                <ul class="controls" id="controls_ul">
+                    <li class="buttons active" data-filter="white">Összes</li>
                 </ul>
             </ul>
             <!--Gallery szűrő gombok vége-->
             <!--Gallery képek kezdete-->
             <div class="image-container">
                 <a href="IMG/All_white/48astörvények_white.png" class="image white ">
-                    <img src="IMG/All_white/48astörvények_white.png" alt="48-as törvények">
+                    <img src="IMG/All_white/48astörvények_white.png" alt="48-as törvényekről kép">
                 </a>
 
                 <a href="IMG/All_white/5.Ferdinand_white.png" class="image white ">
-                    <img src="IMG/All_white/5.Ferdinand_white.png" alt="5.Ferdinand">
+                    <img src="IMG/All_white/5.Ferdinand_white.png" alt="5.Ferdinandról kép">
                 </a>
 
-                <a href="IMG/All_dark/48astörvények_dark.png" class="image dark ">
-                    <img src="IMG/All_dark/48astörvények_dark.png" alt="48-as törvények">
+                <a href="IMG/All_white/white_Kossuth.jpg" class="image white ">
+                    <img src="IMG/All_white/white_Kossuth.jpg" alt="Kossuth Lajosról kép">
                 </a>
 
-                <a href="IMG/All_dark/5.Ferdinand_dark.png" class="image dark ">
-                    <img src="IMG/All_dark/5.Ferdinand_dark.png" alt="5.Ferdinand">
+                <a href="IMG/All_white/ElsőMiniszterium_white.png" class="image white ">
+                    <img src="IMG/All_white/ElsőMiniszterium_white.png" alt="Első minisztérium kép">
                 </a>
-            </div>
+
+                <a href="IMG/All_white/KazinczyFerenc-white.png" class="image white ">
+                    <img src="IMG/All_white/KazinczyFerenc-white.png" alt="Kazinczy Ferenc képe">
+                </a>
+
+                <a href="IMG/All_white/Kossuth_white.png" class="image white ">
+                    <img src="IMG/All_white/KazinczyFerenc-white.png" alt="Kossuth Lajos képe">
+                </a>
+
+                <a href="IMG/All_white/KossuthLajosPortre_white.png" class="image white ">
+                    <img src="IMG/All_white/KossuthLajosPortre_white.png" alt="Kossuth Lajos képe">
+                </a>
+
+                <a href="IMG/All_white/KossuthLajosRajz-white.png" class="image white ">
+                    <img src="IMG/All_white/KossuthLajosRajz-white.png" alt="Kossuth Lajos képe">
+                </a>
+
+                <a href="IMG/All_white/MagyarReformkoIrodalmiÉlete-white.png" class="image white ">
+                    <img src="IMG/All_white/MagyarReformkoIrodalmiÉlete-white.png" alt="A magyar reformkor irodalmi élete">
+                </a>
+
+                <a href="IMG/All_white/MagyarTudomanyosAkademia_white.png" class="image white ">
+                    <img src="IMG/All_white/MagyarTudomanyosAkademia_white.png" alt="A Magyar Tudományos Akadémia">
+                </a>
+
+
+                <a href="IMG/All_white/MagyarTudomanyosTarsasag-white.png" class="image white ">
+                    <img src="IMG/All_white/MagyarTudomanyosAkademia_white.png" alt="A Magyar Tudományos Társaság">
+                </a>
+
+                <a href="IMG/All_white/PestiHirlap_White.png" class="image white ">
+                    <img src="IMG/All_white/PestiHirlap_White.png" alt="A Pesti hírlap első kiadása">
+                </a>
+
+                <a href="IMG/All_white/Petőfi_white.png" class="image white ">
+                    <img src="IMG/All_white/Petőfi_white.png" alt="Petőfi Sándor képe">
+                </a>
+
+                <a href="IMG/All_white/ReformkoriPest_white.png" class="image white ">
+                    <img src="IMG/All_white/ReformkoriPest_white.png" alt="Reformkori Pestről kép">
+                </a>
+
+                <a href="IMG/All_white/ReformkorIrodalma-white.png" class="image white ">
+                    <img src="IMG/All_white/ReformkorIrodalma-white.png" alt="Reformkor irodalmi festmény">
+                </a>
+
+                <a href="IMG/All_white/VörösmartyMihaly_white.png" class="image white ">
+                    <img src="IMG/All_white/VörösmartyMihaly_white.png" alt="Vörösmarty Mihályról kép">
+                </a>
+
+                <a href="IMG/All_white/WesselényiMiklós_white.png" class="image white ">
+                    <img src="IMG/All_white/WesselényiMiklós_white.png" alt="Wesselényi Miklósról kép">
+                </a>
+
+
+        </div>
             <!--Gallery képek vége-->
         </div>
 
@@ -337,6 +390,7 @@
 
         });
     </script>
+
     <!-- Gallery JS vége-->
     <!--ScrollReveal JS Library kezdete -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -378,6 +432,7 @@
             var ReformkoriPest_white = document.getElementById("ReformkoriPest_white");
             var ReformkoriPest_dark = document.getElementById("ReformkoriPest_dark");
             var galleryElement = document.getElementById("galleryElement");
+            var controls_ul = document.getElementById("controls_ul");
 
             if (Switcher == true) {
                 Navbar1.classList.remove("bg-primary", "navbar-dark");
@@ -424,7 +479,9 @@
 
                 footer.classList.add("bg-black");
                 footer.classList.remove("bg-primary");
-                galleryElement.style = 'background-color: #092c3e !important'
+                galleryElement.style = 'background-color: #092c3e !important';
+                controls_ul.innerHTML = "<li class='buttons active' data-filter='dark'>Összes</li>";
+
             }
             if (Switcher == false) {
                 Navbar1.classList.remove("bg-black", "navbar-dark");
@@ -472,7 +529,9 @@
                 ReformkoriPest_dark.classList.add("d-none");
                 ReformkoriPest_dark.classList.remove("d-block");
 
-                galleryElement.style = 'background-color: #fff !import'
+                galleryElement.style = 'background-color: #fff !import';
+
+                controls_ul.innerHTML = "<li class='buttons active' data-filter='white'>Összes</li>";
             }
 
         }
