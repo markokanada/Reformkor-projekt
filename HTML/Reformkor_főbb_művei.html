@@ -51,8 +51,8 @@
                         <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_eseményei_a_történelemben.html">
                             <p class="  text-center hovereditem_light navbar_text navbar-p"> Eseményei a <br> történelemben</p>
                         </a>
-                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_maradványai.html">
-                            <p class=" text-center hovereditem_light navbar_text navbar-p"> Reformkor<br>maradványai</p>
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_öröksége.html">
+                            <p class=" text-center hovereditem_light navbar_text navbar-p"> Reformkor<br>öröksége</p>
                         </a>
                     </div>
                 </div>
@@ -100,9 +100,9 @@
                     </li>
 
                     <li class="list my-2">
-                        <a href="Reformkor_maradványai.html">
+                        <a href="Reformkor_öröksége.html">
                             <span class="icon"><ion-icon class="justify-content-center me-1" name="newspaper-outline"></ion-icon></span>
-                            <span class="title ms-2">Reformkor maradványai</span>
+                            <span class="title ms-2">Reformkor öröksége</span>
                         </a>
                     </li>
 
@@ -151,6 +151,25 @@
       </label>
         </div>
         <!-- Switcher vége-->
+
+        <!-- Language Switcher Comment Popup kezdete-->
+        <div class="language-switcher-container">
+            <div class="language-switcher6">
+                <div id="item_3" class="item">
+                    <img class="mx-2" src="../IMG/Navbar-1-Karinthy/hungary-flag-button-square-icon-64.png" height="40px" width="40px" alt="Magyar zászló szimbolum, a magyar nyelvi összefoglalóhoz.">
+                    <div class="tooltip_description" style="display:none" title="Magyar leírás">
+                        Köszönötjük a reformkori magyar irodalmi műveket bemutató oldalunkon. Az oldalon megismerkedhetnek a magyar irodalom a korszakra legmeghatározóbb műveivel. Az oldalon a reformkor műveit találhatják, amely az 1825-től 1848-as évig terjed ki. Ebben az időben
+                        a költészetet leginkább a romantikára jellemző kicsapongó érzelmek és a népi kultúra határozta meg. A század eleji nyelvújításnak köszönhetően a magyar nyelv egyre nagyobb szerepet kap. </div>
+                </div>
+                <div id="item_3" class="item">
+                    <img class="mx-2" src="../IMG/Navbar-1-Karinthy/united-kingdom-flag-button-square-small.png" height="40px" width="40px" alt="Angol zászló szimbolum, az angol nyelvi összefoglalóhoz.">
+                    <div class="tooltip_description" style="display:none" title="Angol leírás">
+                        Welcome to our website. This page is about the Hungarian literary works of Reformation Era. On this page you can read about the reform era’s most impressive poems from Hungary. The poems were written from 1825 to 1848. In these years poetry was effected
+                        by romantic wild feelings and folk traditions. by romantics wild feelings and folk traditions. </div>
+                </div>
+            </div>
+        </div>
+        <!-- Language Switcher Comment Popup vége-->
 
         <!--Card01 (Himnusz) kezdete-->
         <div class="row">
@@ -666,24 +685,70 @@
         <!--Card01(Toldi video) előzetes vége-->
 
         <!--Footer kezdete-->
-        <footer class="bg-primary px-3" id="footer">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 my-3 text-center text-md-start">
-                    <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5">All rights reserved 2021</span></h1>
+        <footer class="bg-primary px-3 content" id="footer">
+            <div class="row py-1">
+                <div class="col-sm-12 mt-3 col-md-6 text-center text-md-start">
+                    <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5 d-xl-inline d-none">All rights reserved 2021</span></h1>
+                    <p><span class="text-white navbar_text h5 d-xl-none d-block">All rights reserved 2021</span></p>
                 </div>
-                <div class="col-sm-12 col-md-6 my-3 text-center text-md-end">
+                <div class="col-sm-12 mt-3 col-md-6 text-center text-md-end">
                     <h3 class="text-white fw-bold navbar_text hovereditem_light"><span class="copyright" id="Copyright"> &copy; Created by Team M.E.M.Ő <br> <span class="h5">Main Dev Buborék Márkó</span> </span>
                     </h3>
-
+                </div>
+                <div class="col-12 text-center">
+                    <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        var JFL_212875666863370 = new JotformFeedback({
+                            formId: '212875666863370',
+                            base: 'https://form.jotform.com/',
+                            windowTitle: 'Reformkor projekt-Impresszum',
+                            background: '#FFA500',
+                            fontColor: '#FFFFFF',
+                            type: '0',
+                            height: 500,
+                            width: 700,
+                            openOnLoad: false
+                        });
+                    </script>
+                    <a class="btn lightbox-212875666863370 fs-2 text-white fw-bold navbar_text hovereditem_light h3" style="margin-top: 16px">
+                    Reformkor projekt-Impresszum
+                  </a>
                 </div>
 
         </footer>
         <!-- Footer vége-->
 
-
+        <!--JQuerry Tooltip.js kezdete-->
+        <script type="text/javascript" src="../JS/jquery.min.js"></script>
+        <script type="text/javascript" src="../JS/jquery.tooltip.js"></script>
+        <script type="text/javascript">
+            $j = jQuery.noConflict();
+            $j(document).ready(function() {
+                $j("div.item").tooltip();
+            });
+        </script>
+        <!--JQuerry Tooltip.js vége-->
         <!-- Bootstrap min JS kezdete-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         <!-- Bootstrap min JS vége-->
+        <!-- Kérdőív JS kezdete-->
+        <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+            new JotformFeedback({
+                formId: "212874988723371",
+                buttonText: "Véleményezés",
+                base: "https://form.jotform.com/",
+                background: "#000000",
+                fontColor: "#FFFFFF",
+                buttonSide: "right",
+                buttonAlign: "center",
+                type: 1,
+                width: 700,
+                height: 500,
+                isCardForm: false
+            });
+        </script>
+        <!--Kérdőiv JS vége-->
+
         <!-- IONIcon JS kezdete-->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

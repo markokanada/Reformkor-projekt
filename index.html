@@ -15,7 +15,7 @@
 
 </head>
 
-<body id="body" class="position-relative">
+<body id="body" class="position-relative" onload="BWSwithcer()">
 
     <header>
         <!-- Navbar-MD kezdete -->
@@ -54,8 +54,8 @@
                         <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="HTML/Reformkor_eseményei_a_történelemben.html">
                             <p class="  text-center hovereditem_light navbar_text navbar-p"> Eseményei a <br> történelemben</p>
                         </a>
-                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="HTML/Reformkor_maradványai.html">
-                            <p class=" text-center hovereditem_light navbar_text navbar-p"> Reformkor<br>maradványai</p>
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="HTML/Reformkor_öröksége.html">
+                            <p class=" text-center hovereditem_light navbar_text navbar-p"> Reformkor<br>öröksége</p>
                         </a>
                     </div>
                 </div>
@@ -103,9 +103,9 @@
                     </li>
 
                     <li class="list my-2">
-                        <a href="HTML/Reformkor_maradványai.html">
+                        <a href="HTML/Reformkor_öröksége.html">
                             <span class="icon"><ion-icon class="justify-content-center me-1" name="newspaper-outline"></ion-icon></span>
-                            <span class="title ms-2">Reformkor maradványai</span>
+                            <span class="title ms-2">Reformkor öröksége</span>
                         </a>
                     </li>
 
@@ -148,11 +148,29 @@
         <!--Switcher kezdete-->
         <div class="d-block">
             <label id="switcher_label" class="position-absolute switcher2">
-        <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
-        <span class="check"></span>
-      </label>
+                <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
+                <span class="check"></span>
+            </label>
         </div>
         <!-- Switcher vége-->
+
+        <!-- Language Switcher Comment Popup kezdete-->
+        <div class="language-switcher-container">
+            <div class="language-switcher2">
+                <div id="item_3" class="item">
+                    <img class="mx-2" src="IMG/Navbar-1-Karinthy/hungary-flag-button-square-icon-64.png" height="40px" width="40px" alt="Magyar zászló szimbolum, a magyar nyelvi összefoglalóhoz.">
+                    <div class="tooltip_description" style="display:none" title="Magyar leírás">
+                        Ez az oldal a Neumann IT megbizásából készült! Az oldalon megtalálható a készítők neve, a projektben segédkezők nevei, az oldalról navigálni tud a különböző aloldalakra.
+                    </div>
+                </div>
+                <div id="item_3" class="item">
+                    <img class="mx-2" src="IMG/Navbar-1-Karinthy/united-kingdom-flag-button-square-small.png" height="40px" width="40px" alt="Angol zászló szimbolum, az angol nyelvi összefoglalóhoz.">
+                    <div class="tooltip_description" style="display:none" title="Angol leírás">
+                        This site is on behalf of Neumann Secondary VocationalSchool for IT.! In this site you can find the names of the creators, and the names of project helpers, from this site you can navigate to other sites. </div>
+                </div>
+            </div>
+        </div>
+        <!-- Language Switcher Comment Popup vége-->
 
         <!--Card01 (Az oldal altémái) kezdete-->
         <div class="row">
@@ -172,7 +190,7 @@
                                 <ul>
                                     <p class="fw-bold card-text py-0 my-0">Történelmi altémák</p>
                                     <li class="card-text">Reformkor a történelemben <a href="HTML/Reformkor_eseményei_a_történelemben.html" class=" text-decoration-none card-text fw-bold text-warning">Kattintsd ide, az átirányításhoz</a></li>
-                                    <li class="card-text">Reformkor maradványai <a href="HTML/Reformkor_maradványai.html" class="text-decoration-none card-text fw-bold text-warning">Kattintsd ide, az átirányításhoz</a></li>
+                                    <li class="card-text">Reformkor öröksége <a href="HTML/Reformkor_öröksége.html" class="text-decoration-none card-text fw-bold text-warning">Kattintsd ide, az átirányításhoz</a></li>
 
                                 </ul>
                                 <br> <span class="fw-bold text-center card-text"> A főoldalra visszatérni a logóra kattintva tudsz!!!</span>
@@ -190,7 +208,7 @@
         <!--Card01 (Az oldal altémái) vége-->
 
         <!--GalleryElement kezdete-->
-        <div id="galleryElement"  class="gallery d-block">
+        <div id="galleryElement" class="gallery d-block">
             <!--Gallery szűrő gombok kezdete-->
             <ul class="controls">
                 <ul class="controls" id="controls_ul">
@@ -270,7 +288,7 @@
                 </a>
 
 
-        </div>
+            </div>
             <!--Gallery képek vége-->
         </div>
 
@@ -288,7 +306,7 @@
                                     <th class="card-text">Reformkor az irodalomban</th>
                                     <th class="card-text">Reformkor főbb művei</th>
                                     <th class="card-text">Reformkor a történelemben</th>
-                                    <th class="card-text">Reformkor maradványai</th>
+                                    <th class="card-text">Reformkor öröksége</th>
                                 </tr>
                                 <tr>
                                     <td class="card-text">Buborék Márkó</td>
@@ -319,13 +337,13 @@
                                     <td class="card-text">Hajdu Benedek</td>
                                 </tr>
                                 <tr>
-                                    <th class="card-text">Reformkor maradványai</th>
+                                    <th class="card-text">Reformkor öröksége</th>
                                     <td class="card-text">Granilla Péter</td>
                                 </tr>
                             </table>
                         </div>
                     </div>
-                    <p class="text-center card-text">Az oldalban való segédkezést, lektorációt kifejezetten köszönjük: <strong>Mező György, Fenyvessy Gábor, Mészáros Péter tanárainknak!</strong></p>
+                    <p class="text-center card-text">Az oldalban való segédkezést, lektorációt kifejezetten köszönjük: <strong>Mező&nbspGyörgy, Fenyvessy&nbspGábor, Mészáros&nbspPéter tanárainknak!</strong></p>
                 </div>
             </div>
         </div>
@@ -335,21 +353,48 @@
 
     <!--Footer kezdete-->
     <footer class="bg-primary px-3 content" id="footer">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 my-3 text-center text-md-start">
+        <div class="row py-1">
+            <div class="col-sm-12 mt-3 col-md-6 text-center text-md-start">
                 <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5 d-xl-inline d-none">All rights reserved 2021</span></h1>
                 <p><span class="text-white navbar_text h5 d-xl-none d-block">All rights reserved 2021</span></p>
             </div>
-            <div class="col-sm-12 col-md-6 my-3 text-center text-md-end">
+            <div class="col-sm-12 mt-3 col-md-6 text-center text-md-end">
                 <h3 class="text-white fw-bold navbar_text hovereditem_light"><span class="copyright" id="Copyright"> &copy; Created by Team M.E.M.Ő <br> <span class="h5">Main Dev Buborék Márkó</span> </span>
                 </h3>
-
+            </div>
+            <div class="col-12 text-center">
+                <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    var JFL_212875666863370 = new JotformFeedback({
+                        formId: '212875666863370',
+                        base: 'https://form.jotform.com/',
+                        windowTitle: 'Reformkor projekt-Impresszum',
+                        background: '#FFA500',
+                        fontColor: '#FFFFFF',
+                        type: '0',
+                        height: 500,
+                        width: 700,
+                        openOnLoad: false
+                    });
+                </script>
+                <a class="btn lightbox-212875666863370 fs-2 text-white fw-bold navbar_text hovereditem_light h3" style="margin-top: 16px">
+                    Reformkor projekt-Impresszum
+                  </a>
             </div>
 
     </footer>
     <!-- Footer vége-->
 
-
+    <!--JQuerry Tooltip.js kezdete-->
+    <script type="text/javascript" src="JS/jquery.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.tooltip.js"></script>
+    <script type="text/javascript">
+        $j = jQuery.noConflict();
+        $j(document).ready(function() {
+            $j("div.item").tooltip();
+        });
+    </script>
+    <!--JQuerry Tooltip.js vége-->
     <!-- popper js kezdete-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <!-- popper js vége-->
@@ -410,6 +455,25 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- IONIcon JS vége-->
+
+    <!-- Kérdőív JS kezdete-->
+    <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+        new JotformFeedback({
+            formId: "212874988723371",
+            buttonText: "Véleményezés",
+            base: "https://form.jotform.com/",
+            background: "#000000",
+            fontColor: "#FFFFFF",
+            buttonSide: "right",
+            buttonAlign: "center",
+            type: 1,
+            width: 700,
+            height: 500,
+            isCardForm: false
+        });
+    </script>
+    <!--Kérdőiv JS vége-->
+
     <!-- Black & White theme switcher JS kezdete-->
     <script>
         function BWSwithcer() {

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reformkor maradványai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/stlye.css">
+    <link rel="shortcut icon" href="../IMG/MainPageIcon/Karinthy_logo_all.ico" type="image/x-icon">
+
+</head>
+
+<body id="body" class="position-relative">
+
+    <header>
+        <!-- Navbar-MD kezdete -->
+
+        <nav class="navbar d-md-block d-none navbar-expand-md navbar-dark bg-white py-0">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex top-circle">
+
+                        <a class="nav-link py-0 top-circle" id="circle" href="../index.html"> <img src="../IMG/Navbar-1-Karinthy/top-circle-karinthy.png" alt="Karinthy Frigyes képe, főoldalra vezető hivatkozás" title="Karinthy Frigyes arcképe a logón, főoldalra vezető hivatkozás"></a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+        <nav id="navbar1" class="navbar d-md-block d-none navbar-expand-md py-0 bg-primary navbar-dark">
+            <div class="container-fluid ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex mx-auto">
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_eseményei_az_irodalomban.html">
+                            <p class=" hovereditem_light text-center navbar_text navbar-p"> Eseményei az <br> irodalomban</p>
+                        </a>
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_főbb_művei.html">
+                            <p class="  text-center hovereditem_light navbar_text navbar-p">Reformkor <br> főbb művei</p>
+                        </a>
+                        <a class="nav-link py-0 bot-circle" id="circle" href="../index.html"> <img class="" src="../IMG/Navbar-1-Karinthy/Bottom-circle-karinthy.png" alt="Karinthy Frigyes képe, főoldalra vezető hivatkozás" title="Karinthy Frigyes arcképe a logón, főoldalra vezető hivatkozás"></a>
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_eseményei_a_történelemben.html">
+                            <p class="  text-center hovereditem_light navbar_text navbar-p"> Eseményei a <br> történelemben</p>
+                        </a>
+                        <a class="nav-item nav-link text-white mt-2 px-5 align-middle" href="Reformkor_maradványai.html">
+                            <p class=" text-center hovereditem_light navbar_text navbar-p"> Reformkor<br>maradványai</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <!-- navbar vége -->
+        <!--Navbar <MD kezdete-->
+        <div class="d-block d-md-none ms-0 ps-0">
+            <div class="navigation ms-0" onmouseenter="startScript()">
+                <ul class="mx-auto">
+                    <li class="list my-2">
+                        <a href="#">
+                            <span class="icon"> <img class="justify-content-center me-1" src="../IMG/Navbar-1-Karinthy/Karinthy_logo_all.png" height="40" width="40" alt="Karinthy Frigyes képe"></span>
+                            <span class="titleimg ms-2">Reformkor Projekt</span>
+                        </a>
+                    </li>
+
+                    <li class="list active my-2">
+                        <a href="../index.html">
+                            <span class="icon"><ion-icon class="justify-content-center me-1" name="home-outline"></ion-icon></span>
+                            <span class="title ms-2">Főoldal</span>
+                        </a>
+                    </li>
+
+                    <li class="list my-2">
+                        <a href="Reformkor_eseményei_az_irodalomban.html">
+                            <span class="icon"><ion-icon class="justify-content-center me-1" name="pencil-outline"></ion-icon></span>
+                            <span class="title ms-2">Eseményei az irodalomban</span>
+                        </a>
+                    </li>
+
+                    <li class="list my-2">
+                        <a href="Reformkor_főbb_művei.html">
+                            <span class="icon"><ion-icon class="justify-content-center me-1" name="book-outline"></ion-icon></span>
+                            <span class="title ms-2">Reformkor főbb művei</span>
+                        </a>
+                    </li>
+
+                    <li class="list my-2">
+                        <a href="Reformkor_eseményei_a_történelemben.html">
+                            <span class="icon"><ion-icon class="justify-content-center me-1" name="bulb-outline"></ion-icon></span>
+                            <span class="title ms-2">Eseményei történelemben</span>
+                        </a>
+                    </li>
+
+                    <li class="list my-2">
+                        <a href="Reformkor_maradványai.html">
+                            <span class="icon"><ion-icon class="justify-content-center me-1" name="newspaper-outline"></ion-icon></span>
+                            <span class="title ms-2">Reformkor maradványai</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--Navbar <MD vége-->
+    </header>
+    <div class=" content justify-content-center">
+
+        <!--Slider01 kezdete-->
+        <div class="MySlider">
+
+            <div class="Slider_01" id="white_sliderimage_1">
+                <img class="img-fluid" src="../IMG/Slider01/white_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+            <div class="d-none" id="black_sliderimage_1" style="display: block;">
+                <img class="img-fluid" src="../IMG/Slider01/black_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+            <div class="Slider_01" id="white_sliderimage_2">
+                <img class="img-fluid" src="../IMG/Slider01/white_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+            <div class="d-none" id="black_sliderimage_2" style="display: none;">
+                <img class="img-fluid" src="../IMG/Slider01/black_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+            <div class="Slider_01" id="white_sliderimage_3">
+                <img class="img-fluid" src="../IMG/Slider01/white_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+            <div class="d-none" id="black_sliderimage_3" style="display: none;">
+                <img class="img-fluid" src="../IMG/Slider01/black_sliderimage_1.png" alt="A reformkor maradványai">
+            </div>
+
+        </div>
+        <!-- Slider01 vége-->
+
+        <!--Switcher kezdete-->
+        <div class="d-block">
+            <label id="switcher_label" class="position-absolute switcher4">
+        <input onclick="BWSwithcer()" type="Checkbox" id="switcher" alt="Sötét mód állítása">
+        <span class="check"></span>
+      </label>
+        </div>
+        <!-- Switcher vége-->
+
+        <!--Card01 (Kossuth Lajos Programja) kezdete-->
+        <div class="row">
+            <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h1 class="card-title card01-title card-tittles h3 card-text">A reformmozgalom kibontakozása, Kossuth Lajos programja</h1>
+                            <p class="text-justify card-text"><strong>Kossuth Lajos</strong> Monok-on született nemesi értelmiségi családban. Jogi tanulmányokat folytatott, <strong>vármegyei tisztviselő ügyvéd lett.</strong> Egy távollévő főrendet helyettesítve jutott el az 1832/36. évi
+                                országgyűlésre, ahol a joghallgatókkal kézzel írott Országgyűlés Tudósításokat szerkesztette, amelyeket szétküldtek a vármegyéknek.<strong>1837-től a Törvényhatósági Tudósításokkal kezdeményezte.</strong></p>
+                            <p class="text-justify card-text">Kossuthot a cenzúra megsértése miatt ítélték el. A <strong>börtönben megtanult angolul,  és közgazdaságtannal is foglalkozott.</strong> A börtönből kiszabadult Kossuth Lajos engedélyt kapott arra, hogy politikai lapot indítson,<strong>a Pesti Hírlap 1841 elején jelent meg először.</strong>                                Új műfajt hozott létre, a vezércikket, ezzel <strong>megteremtette a magyarországi politikai újságírást.</strong> Írásainak vezérfonala, hogy a köznemességre támaszkodva reformok útján kell megteremteni a polgári nemzetállamot.
+                                Ezért át kell alakítani a gazdaságot és a megkövesedett feudális jogrendet.</p>
+                            <p class="text-justify card-text">Az <strong>1839/40.évi országgyűlésen </strong> megszavazott önkéntes örökváltságról jól tudta, hogy alkalmatlan a jobbágykérdés megoldására,<strong> mivel a parasztságnak nincs pénze arra, hogy saját sorsán javítson.</strong>                                Ezért a kötelező örökváltságban látta a helyzet megoldását, amikor a megváltásért
+                                <strongh>az állam kárpótolja a földesurat.</strongh> Az ország nyomorúságos közállapotainak okát az adózásban kereste. Tudta, hogy a nemesség nem mond le teljes adómentességéről. Ezért előbb
+                                <strong>a háziadó megszavazását </strong> sürgette lapjában. Felismerte, és lapjában hirdette, hogy Magyarország az örökös tartományokkal szemben hátrányos helyzetben van; gazdasága <strong>nyersanyagot és feldolgozatlan élelmiszert termel a birodalom
+                                iparilag fejlettebb tartományainak.</strong> Ennek oka az 1754-ben bevezetett <strong>vámrendszer</strong>, amely a magyar birtokosok terménykivitelét is nehezítette. Lapjában megindította harcát az önálló iparral és vámterülettel
+                                rendelkező gazdaságért.</p>
+                            <p class="text-justify card-text">Miután az országgyűlésen az önálló vámterület ügye elbukott,<strong>1844-ben társadalmi mozgalmat szervezett,</strong> a Védegyletet. Tagjai nem vásároltak idegen árut, ezzel <strong>csökkentették az osztrák és cseh iparcikkek iránti hazai keresletet.</strong>                                A magyar ipar siralmas állapotát jól mutatta az 1842-ben megrendezett ipari kiállítás. A társadalmi mozgalom természetesen nem pótolta az állam intézkedéseit, amelyre nagy szüksége lett volna az országnak. Ez a program
+                                Széchenyiétől több ponton is különbözött (iparfejlesztés, Habsburg Birodalomhoz fűződő viszony, radikális reformok, liberális nemesség vezető szerepe), de sok <strong>lényegi kérdésben egyezett is.</strong> A Birodalomhoz
+                                fűződő viszonyunkat lazítani szerette volna, ami politikai és gazdasági különállást jelentett. Fontos és újszerű eleme programjának az <strong>érdekegyesítés gondolata,</strong> mellyel a nemesség és a jobbágyság érdekeit
+                                igyekezett összhangba hozni.<strong> Reformelképzeléseit
+                                gyorsan és radikálisan kívánta végrehajtani.</strong></p>
+
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <img id="Kossuth_white" class="img-fluid img-center d-block img-thumbnail" src="../IMG/Maradvanyai/white_Kossuth.jpg" alt="Kossuth Lajos portréja" title="Kossuth Lajos portréja">
+                            <img id="Kossuth_dark" class="img-fluid img-center d-none img-thumbnail" src="../IMG/Maradvanyai/dark_Kossuth.jpg" alt="Kossuth Lajos portréja" title="Kossuth Lajos portréja">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Card01 (Kossuth Lajos programja) vége-->
+
+        <!--Card01 (Képek) kezdete-->
+        <div class="row">
+            <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <img id="PestiHirlap_white" class="img-fluid img-center d-block img-thumbnail" src="../IMG/Maradvanyai/PestiHirlap_White.png" alt="Az első kiadása a Pesti hírlapnak" title="Az első kiadása a Pesti hírlapnak">
+                            <img id="PestiHirlap_dark" class="img-fluid img-center d-none img-thumbnail" src="../IMG/Maradvanyai/PestiHirlap_Dark.png" alt="Az első kiadása a Pesti hírlapnak" title="Az első kiadása a Pesti hírlapnak">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img id="ElsoMiniszterium_white" class="img-fluid img-center d-block img-thumbnail" src="../IMG/Maradvanyai/ElsőMiniszterium_white.png" alt="Az első minisztériumot ábrázoló kép" title="Az első minisztériumot ábrázoló kép">
+                            <img id="ElsoMiniszterium_dark" class="img-fluid img-center d-none img-thumbnail" src="../IMG/Maradvanyai/ElsőMiniszterium_dark.png" alt="Az első minisztériumot ábrázoló kép" title="Az első minisztériumot ábrázoló kép">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Card01 (Képek) vége-->
+
+        <!--Card01 (Az áprilisi törvények) kezdete-->
+        <div class="row">
+            <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h1 class="card-title card01-title card-tittles h3 card-text">Az áprilisi törvények </h1>
+                            <p class="text-justify card-text">Az <strong>áprilisi törvények</strong> az utolsó magyar rendi országgyűlésen (1847–1848) elfogadott és <strong>V. Ferdinánd király által április 11-én szentesített törvénycsomag,</strong> amely <strong>31 cikkből</strong> állt.
+                                A törvénycsomag új közjogi helyzetet teremtett a Habsburg Birodalomban, egyben biztosította a magyar országrész polgári demokratikus fejlődését; lényegében Magyarországot rendi államból parlamentáris állammá, <strong>alkotmányos monarchiává, alakította</strong>.</p>
+                            <p class="text-justify card-text">Az 1848. évi III. törvénycikk rendelkezett a független magyar felelős "ministerium" alakításáról.<strong>István nádor 1848. március 17-én</strong> kormányalakítással bízta meg <strong>Batthyány Lajost.</strong></p>
+                            <p class="text-justify card-text">Az <strong>áprilisi törvények</strong> hatására népképviseleti rendszert vezettek be az országgyűlés alsótábláján, és a korban széles körűnek számító, bár nem általános <strong>választójogot vezettek be.</strong> Rendelkeztek
+                                az országgyűlés évenkénti üléseiről és egyes szabadságjogokról. A törvényhozás menetéről a házszabályok rendelkeztek. <strong>A feudalizmust felszámolták,</strong> a magyar kultúra és a gazdaság fejlesztésére vonatkozó
+                                törvények is bekerültek a törvénycsomagba. A modern magyar polgári állam megszületése természetesen az egyháznak az államhoz fűződő viszonyát is alapvetően megváltoztatta. </p>
+                            <p class="text-justify card-text">Fontos hiányossága volt a törvényeknek, hogy <strong>kimaradt</strong> belőlük a nemzetiségek helyzetének rendezése,<strong>a hadsereg és a nemzeti bank megszervezése is.</strong> Bár az 1848–49-es forradalom és szabadságharc
+                                leverése után az új <strong>neoabszolutista</strong> kormányzati rendszer a törvényeket visszavonta, az áprilisi törvények a magyar politika <strong>viszonyítási alapjává</strong> váltak, és részint megvalósultak a kiegyezéssel,
+                                illetve az Osztrák–Magyar Monarchia idején végbement közjogi fejlődéssel.
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <img id="Ferdinand_white" class="img-fluid img-center d-block img-thumbnail" src="../IMG/Maradvanyai/5.Ferdinand_white.png" alt="V.Ferdinánd képe" title="V.Ferdinánd képe">
+                            <img id="Ferdinand_dark" class="img-fluid img-center d-none img-thumbnail" src="../IMG/Maradvanyai/5.Ferdinand_dark.png" alt="V.Ferdinánd képe" title="V.Ferdinánd képe">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Card01 (Az áprilisi törvények) vége-->
+
+        <!--Card01 (A Magyar nyelvújítás) kezdete-->
+        <div class="row">
+            <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+                <div class="card-body ">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h1 class="card-title card01-title card-tittles h3 card-text">A Magyar nyelvújítás</h1>
+                            <p class="text-justify card-text">A <strong>nyelvújítás</strong> a nyelvfejlesztés egyik fajtája, amelynek során <strong>tudatos és tömeges változtatásokat hajtanak végre egy nyelvben.</strong> A nyelvújítás elsősorban nyelvművelők (írók, költők, nyelvészek)
+                                tevékenysége, <strong>célja</strong> a szókincs bővítése, az idegen szavak helyettesítése, a stílusújítás és az <strong>egységes nyelv megteremtése.</strong></p>
+                            <p class="text-justify card-text">A nyelvújítás legfontosabb eszközei az <strong>egyszerűsítés</strong> és az <strong> új szavak létrehozása,</strong> illetve hatással lehet még a nyelv fejlődésére valamely nyelvhez való visszatérés igénye is. A Magyar nyelvújításnak
+                                sajátos vonása, hogy <strong> szorosan
+                                kapcsolódott a politikához,</strong> és kezdettől fogva a feudalizmus elleni harc egyik formája volt. Hamar központi kérdéssé vált lett a <strong>nyelv jogainak helyreállítása,</strong> államnyelvvé tétele, egyenjogúságának
+                                biztosítása a művelődésben és a közéletben.</p>
+                            <p class="text-justify card-text"><strong>1832-ben az első magyar helyesírási szabályzat </strong> bizonyítja a nyelvészet és az irodalom szoros kapcsolatát. Ebben a korszakban formálódott ki véglegesen az egységes magyar irodalmi nyelv, jött létre a művelt
+                                köznyelv. A nyelvújítással együtt járt a <strong>stílusújítás</strong> is. Megújult a szépirodalom, a társalgás, a tudomány stílusa és kifejlődött a publicisztikai stílus. A nyelvvel és a stílussal való tudatos, sőt programszerű
+                                törődés hagyományként élt tovább. A szókincs-gyarapítási törekvések is tovább hatnak.</p>
+                            <p class="text-justify card-text">1872-ben a Magyar Nyelvőr megjelenésével <strong>lezárult a nyelvújítás folyamata.</strong></p>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <img id="törvények_white" class="img-fluid img-center d-block img-thumbnail" src="../IMG/Maradvanyai/48astörvények_white.png" alt="Az 1848-as áprilisi törvényekkel, Battyányi Lajossal kapcsolatos kép." title="Az 1848-as áprilisi törvényekkel, Battyányi Lajossal kapcsolatos kép.">
+                            <img id="törvények_dark" class="img-fluid img-center d-none img-thumbnail" src="../IMG/Maradvanyai/48astörvények_dark.png" alt="Az 1848-as áprilisi törvényekkel, Battyányi Lajossal kapcsolatos kép." title="Az 1848-as áprilisi törvényekkel, Battyányi Lajossal kapcsolatos kép.">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Card01 (A Magyar nyelvújítás) vége-->
+
+
+        <!--Card01(Toldi video) kezdete-->
+        <div class="row">
+            <div class="card card01 mx-auto my-5 mt-md-5 py-2 card01-body">
+                <div class="card-body ">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="card-title text-center card01-title card-tittles h3 card-text">48-as árpilisi törvények</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="video-container">
+                                <iframe class="d-flex justify-content-center img-fluid object embed" src="https://www.youtube.com/embed/CToxnWTTcJ0" title="A 48-as áprilisi törvényekről szóló animált videó." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Card01(Toldi video) előzetes vége-->
+
+    <!--Footer kezdete-->
+    <footer class="bg-primary px-3 content" id="footer">
+        <div class="row py-1">
+            <div class="col-sm-12 mt-3 col-md-6 text-center text-md-start">
+                <h1 class="text-white fw-bold navbar_text hovereditem_light">Reformkor Projekt <span class="text-white navbar_text h5 d-xl-inline d-none">All rights reserved 2021</span></h1>
+                <p><span class="text-white navbar_text h5 d-xl-none d-block">All rights reserved 2021</span></p>
+            </div>
+            <div class="col-sm-12 mt-3 col-md-6 text-center text-md-end">
+                <h3 class="text-white fw-bold navbar_text hovereditem_light"><span class="copyright" id="Copyright"> &copy; Created by Team M.E.M.Ő <br> <span class="h5">Main Dev Buborék Márkó</span> </span>
+                </h3>
+            </div>
+            <div class="col-12 text-center">
+                <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    var JFL_212875666863370 = new JotformFeedback({
+                        formId: '212875666863370',
+                        base: 'https://form.jotform.com/',
+                        windowTitle: 'Reformkor projekt-Impresszum',
+                        background: '#FFA500',
+                        fontColor: '#FFFFFF',
+                        type: '0',
+                        height: 500,
+                        width: 700,
+                        openOnLoad: false
+                    });
+                </script>
+                <a class="btn lightbox-212875666863370 fs-2 text-white fw-bold navbar_text hovereditem_light h3" style="margin-top: 16px">
+                    Reformkor projekt-Impresszum
+                  </a>
+            </div>
+
+    </footer>
+    <!-- Footer vége-->
+
+
+    <!-- Bootstrap min JS kezdete-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- Bootstrap min JS vége-->
+    <!-- Kérdőív JS kezdete-->
+    <script src="https://form.jotform.com/static/feedback2.js" type="text/javascript">
+        new JotformFeedback({
+            formId: "212874988723371",
+            buttonText: "Véleményezés",
+            base: "https://form.jotform.com/",
+            background: "#000000",
+            fontColor: "#FFFFFF",
+            buttonSide: "right",
+            buttonAlign: "center",
+            type: 1,
+            width: 700,
+            height: 500,
+            isCardForm: false
+        });
+    </script>
+    <!--Kérdőiv JS vége-->
+    <!-- IONIcon JS kezdete-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- IONIcon JS vége-->
+    <!-- Black & White theme switcher JS kezdete-->
+    <script>
+        function BWSwithcer() {
+            var Switcher = document.getElementById("switcher").checked;
+            var Navbar1 = document.getElementById("navbar1");
+            var body = document.getElementById("body");
+            var navbartext = document.getElementsByClassName("navbar_text");
+            var cardbody = document.getElementsByClassName("card01-body");
+            var cardtext = document.getElementsByClassName("card-text");
+            //          var button1 = document.getElementById("button1");
+            //      var button2 = document.getElementById("button2");
+            var white_sliderimage_1 = document.getElementById("white_sliderimage_1");
+            var black_sliderimage_1 = document.getElementById("black_sliderimage_1");
+            var white_sliderimage_2 = document.getElementById("white_sliderimage_2");
+            var black_sliderimage_2 = document.getElementById("black_sliderimage_2");
+            var white_sliderimage_3 = document.getElementById("white_sliderimage_3");
+            var black_sliderimage_3 = document.getElementById("black_sliderimage_3");
+            var footer = document.getElementById("footer");
+            var white_Kossuth = document.getElementById("Kossuth_white");
+            var dark_Kossuth = document.getElementById("Kossuth_dark");
+            var PestiHirlap_white = document.getElementById("PestiHirlap_white");
+            var PestiHirlap_dark = document.getElementById("PestiHirlap_dark");
+            var ElsoMiniszterium_white = document.getElementById("ElsoMiniszterium_white");
+            var ElsoMiniszterium_dark = document.getElementById("ElsoMiniszterium_dark");
+            var törvények_white = document.getElementById("törvények_white");
+            var törvények_dark = document.getElementById("törvények_dark");
+
+            if (Switcher == true) {
+                Navbar1.classList.remove("bg-primary", "navbar-dark");
+                Navbar1.classList.add("bg-black", "navbar-dark");
+                footer.classList.add("bg-black");
+                footer.classList.remove("bg-primary");
+                body.style = `background-color:#092c3e`;
+                for (let i = 0; i < navbartext.length; i++) {
+                    navbartext[i].classList.remove("hovereditem_light");
+                    navbartext[i].classList.add("hovereditem_dark");
+                }
+
+                for (let d = 0; d < cardbody.length; d++) {
+                    cardbody[d].classList.add("dark-card");
+                }
+
+                for (let o = 0; o < cardtext.length; o++) {
+                    cardtext[o].classList.add("text-white");
+
+                }
+
+                //             button2.classList.remove("btn-primary");
+                //              button2.style = `background-color:#006666; border-color:#006666`;
+                //              button1.classList.remove("btn-info");
+                //               button1.style = `background-color:#001a66; border-color:#001a66`;
+                white_sliderimage_1.classList.remove("Slider_01");
+                white_sliderimage_1.classList.add("d-none");
+                black_sliderimage_1.classList.remove("d-none");
+                black_sliderimage_1.classList.add("Slider_01");
+
+                white_sliderimage_2.classList.remove("Slider_01");
+                white_sliderimage_2.classList.add("d-none");
+                black_sliderimage_2.classList.remove("d-none");
+                black_sliderimage_2.classList.add("Slider_01");
+
+                white_sliderimage_3.classList.remove("Slider_01");
+                white_sliderimage_3.classList.add("d-none");
+                black_sliderimage_3.classList.remove("d-none");
+                black_sliderimage_3.classList.add("Slider_01");
+
+                white_Kossuth.classList.remove("d-block");
+                dark_Kossuth.classList.add("d-block")
+                white_Kossuth.classList.add("d-none");
+                dark_Kossuth.classList.remove("d-none");
+
+                PestiHirlap_dark.classList.add("d-block");
+                PestiHirlap_white.classList.remove("d-block");
+                ElsoMiniszterium_dark.classList.remove("d-none");
+                ElsoMiniszterium_white.classList.add("d-none");
+                PestiHirlap_dark.classList.remove("d-none");
+                PestiHirlap_white.classList.add("d-none");
+                ElsoMiniszterium_dark.classList.add("d-block");
+                ElsoMiniszterium_white.classList.remove("d-block");
+
+                törvények_white.classList.remove("d-block");
+                törvények_dark.classList.add("d-block")
+                törvények_white.classList.add("d-none");
+                törvények_dark.classList.remove("d-none");
+
+            }
+            if (Switcher == false) {
+                Navbar1.classList.remove("bg-black", "navbar-dark");
+                Navbar1.classList.add("bg-primary", "navbar-dark");
+                footer.classList.remove("bg-black");
+                footer.classList.add("bg-primary");
+                body.style = `background-color:#fff`;
+
+                for (let i = 0; i < navbartext.length; i++) {
+                    navbartext[i].classList.remove("hovereditem_dark");
+                    navbartext[i].classList.add("hovereditem_light");
+                }
+
+                for (let o = 0; o < cardtext.length; o++) {
+                    cardtext[o].classList.remove("text-white");
+                }
+
+                for (let d = 0; d < cardbody.length; d++) {
+                    cardbody[d].classList.remove("dark-card");
+                }
+
+                //               button1.classList.add("btn-primary");
+                //              button1.style = `background-color:; border-color:`;
+                //              button2.classList.add("btn-info");
+                //              button2.style = `background-color:; border-color:`;
+
+                black_sliderimage_1.classList.remove("Slider_01");
+                black_sliderimage_1.classList.add("d-none");
+                white_sliderimage_1.classList.remove("d-none");
+                white_sliderimage_1.classList.add("Slider_01");
+
+                black_sliderimage_2.classList.remove("Slider_01");
+                black_sliderimage_2.classList.add("d-none");
+                white_sliderimage_2.classList.remove("d-none");
+                white_sliderimage_2.classList.add("Slider_01");
+
+                black_sliderimage_3.classList.remove("Slider_01");
+                black_sliderimage_3.classList.add("d-none");
+                white_sliderimage_3.classList.remove("d-none");
+                white_sliderimage_3.classList.add("Slider_01");
+
+                dark_Kossuth.classList.remove("d-block");
+                white_Kossuth.classList.add("d-block")
+                dark_Kossuth.classList.add("d-none");
+                white_Kossuth.classList.remove("d-none");
+
+                PestiHirlap_dark.classList.remove("d-block");
+                PestiHirlap_white.classList.add("d-block");
+                ElsoMiniszterium_dark.classList.add("d-none");
+                ElsoMiniszterium_white.classList.remove("d-none");
+                PestiHirlap_dark.classList.add("d-none");
+                PestiHirlap_white.classList.remove("d-none");
+                ElsoMiniszterium_dark.classList.remove("d-block");
+                ElsoMiniszterium_white.classList.add("d-block");
+            }
+
+        }
+    </script>
+    <!-- Black & White theme switcher JS vége-->
+
+    <!-- Slider JS kezdete-->
+    <script>
+        slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("Slider_01");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
+    <!--Slider JS vége-->
+
+    <!-- Navbar MD> JS kezdete-->
+    <script>
+        function activeLink() {
+            let list = document.querySelectorAll('.list');
+            list.forEach((item) => item.classList.remove('active'));
+            this.classList.add('active');
+        }
+
+        function startScript() {
+            list.forEach((item) => item.addEventListener('click', activeLink))
+        }
+    </script>
+    <!-- Navbar MD> JS vége-->
+</body>
+
+</html>
